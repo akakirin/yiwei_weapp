@@ -1,0 +1,54 @@
+2017-05-18 10:39:28,483 INFO 915 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-18 10:39:28,572 INFO 915 [egg-watcher:agent] watcher start success
+2017-05-21 05:08:12,326 INFO 4680 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-21 05:08:12,806 INFO 4680 [egg-mongoose] connecting mongodb://127.0.0.1/yiwei
+2017-05-21 05:08:12,845 INFO 4680 [egg-mongoose] starting...
+2017-05-21 05:08:12,862 INFO 4680 [egg-watcher:agent] watcher start success
+2017-05-21 05:08:12,884 INFO 4680 [egg-mongoose] mongodb://127.0.0.1/yiwei connected successfully
+2017-05-21 05:08:12,885 INFO 4680 [egg-mongoose] start successfully and server status is ok
+2017-05-21 05:10:43,311 WARN 4680 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/router.js change
+2017-05-21 05:11:05,814 INFO 4706 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-21 05:11:06,131 INFO 4706 [egg-mongoose] connecting mongodb://127.0.0.1/yiwei
+2017-05-21 05:11:06,178 INFO 4706 [egg-mongoose] starting...
+2017-05-21 05:11:06,191 INFO 4706 [egg-watcher:agent] watcher start success
+2017-05-21 05:11:06,212 INFO 4706 [egg-mongoose] mongodb://127.0.0.1/yiwei connected successfully
+2017-05-21 05:11:06,213 INFO 4706 [egg-mongoose] start successfully and server status is ok
+2017-05-21 05:11:48,291 INFO 4716 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-21 05:11:48,577 INFO 4716 [egg-mongoose] connecting mongodb://127.0.0.1/yiwei
+2017-05-21 05:11:48,622 INFO 4716 [egg-mongoose] starting...
+2017-05-21 05:11:48,634 INFO 4716 [egg-watcher:agent] watcher start success
+2017-05-21 05:11:48,653 INFO 4716 [egg-mongoose] mongodb://127.0.0.1/yiwei connected successfully
+2017-05-21 05:11:48,655 INFO 4716 [egg-mongoose] start successfully and server status is ok
+2017-05-21 05:12:27,761 INFO 4726 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-21 05:12:28,042 INFO 4726 [egg-mongoose] connecting mongodb://127.0.0.1/yiwei
+2017-05-21 05:12:28,088 INFO 4726 [egg-mongoose] starting...
+2017-05-21 05:12:28,099 INFO 4726 [egg-watcher:agent] watcher start success
+2017-05-21 05:12:28,118 INFO 4726 [egg-mongoose] mongodb://127.0.0.1/yiwei connected successfully
+2017-05-21 05:12:28,120 INFO 4726 [egg-mongoose] start successfully and server status is ok
+2017-05-21 05:14:13,177 WARN 4726 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-05-21 05:15:41,308 WARN 4726 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/router.js change
+2017-05-21 05:20:45,154 WARN 4726 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/router.js change
+2017-05-21 05:21:15,586 INFO 4818 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-21 05:21:16,013 INFO 4818 [egg-mongoose] connecting mongodb://127.0.0.1/yiwei
+2017-05-21 05:21:16,051 INFO 4818 [egg-mongoose] starting...
+2017-05-21 05:21:16,063 INFO 4818 [egg-watcher:agent] watcher start success
+2017-05-21 05:21:16,082 INFO 4818 [egg-mongoose] mongodb://127.0.0.1/yiwei connected successfully
+2017-05-21 05:21:16,083 INFO 4818 [egg-mongoose] start successfully and server status is ok
+2017-05-21 05:22:19,603 INFO 4833 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-21 05:22:19,886 INFO 4833 [egg-mongoose] connecting mongodb://127.0.0.1/yiwei
+2017-05-21 05:22:19,930 INFO 4833 [egg-mongoose] starting...
+2017-05-21 05:22:19,940 INFO 4833 [egg-watcher:agent] watcher start success
+2017-05-21 05:22:19,957 INFO 4833 [egg-mongoose] mongodb://127.0.0.1/yiwei connected successfully
+2017-05-21 05:22:19,959 INFO 4833 [egg-mongoose] start successfully and server status is ok
+2017-05-21 05:23:53,751 WARN 4833 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/model/books.js change
+2017-05-21 05:24:42,441 WARN 4833 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/model/books.js change
+2017-05-21 05:25:09,741 WARN 4833 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-05-22 11:15:32,491 INFO 1396 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-22 11:15:32,933 INFO 1396 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv2
+2017-05-22 11:15:32,966 INFO 1396 [egg-mongoose] starting...
+2017-05-22 11:15:32,979 INFO 1396 [egg-watcher:agent] watcher start success
+2017-05-22 11:15:32,998 INFO 1396 [egg-mongoose] mongodb://127.0.0.1/yiweiv2 connected successfully
+2017-05-22 11:15:32,999 INFO 1396 [egg-mongoose] start successfully and server status is ok
+2017-05-23 11:21:29,149 WARN 1396 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/books.js change
+2017-05-23 14:22:58,873 INFO 1396 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-23 14:22:58,923 INFO 1396 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js

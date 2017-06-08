@@ -1,0 +1,55 @@
+2017-05-24 18:55:12,952 WARN 2176 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: book_not_found
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at BooksService.checkSuccess (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:30:23)
+    at BooksService.createbooks (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:23:12)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'book_not_found'
+pid: 2176
+hostname: wujunyideMacBook-Pro.local
+
+2017-05-25 17:06:38,028 WARN 2216 [-/127.0.0.1/-/1ms GET /] nodejs.NotFoundError: book_not_found
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at BooksService.checkSuccess (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:30:23)
+    at BooksService.createbooks (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:23:12)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'book_not_found'
+pid: 2216
+hostname: bogon
+
+2017-05-25 17:09:03,987 WARN 2238 [-/127.0.0.1/-/9ms GET /] nodejs.NotFoundError: book_not_found
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at BooksService.checkSuccess (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:30:23)
+    at BooksService.createbooks (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:23:12)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'book_not_found'
+pid: 2238
+hostname: bogon
+
+2017-05-25 17:17:03,640 WARN 2340 [-/127.0.0.1/-/0ms GET /] nodejs.NotFoundError: book_not_found
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at BooksService.checkSuccess (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:30:23)
+    at BooksService.createbooks (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:23:12)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'book_not_found'
+pid: 2340
+hostname: bogon
+
+2017-05-25 17:17:06,537 WARN 2341 [-/127.0.0.1/-/5ms GET /] nodejs.NotFoundError: book_not_found
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at BooksService.checkSuccess (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:30:23)
+    at BooksService.createbooks (/Users/wujunyi/Desktop/node/eggRest/app/service/books.js:23:12)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'book_not_found'
+pid: 2341
+hostname: bogon
+
