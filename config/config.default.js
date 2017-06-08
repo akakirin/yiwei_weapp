@@ -8,7 +8,7 @@ module.exports = appInfo => {
 
   // add your config here
   config.mongoose = {
-    url: 'mongodb://127.0.0.1/yiweiv3',
+    url: 'mongodb://10.141.139.233/yiweiv3',
     options: {}
   }
   return config;
