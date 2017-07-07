@@ -1,0 +1,198 @@
+2017-06-24 16:13:56,815 WARN 3054 [-/127.0.0.1/-/5ms POST /api/doc/upload] nodejs.UnauthorizedError: no token
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:12:17)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'no token'
+pid: 3054
+hostname: localhost
+
+2017-06-24 16:17:49,352 WARN 3054 [-/127.0.0.1/-/1ms POST /api/doc/upload] nodejs.UnauthorizedError: no token
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:12:17)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'no token'
+pid: 3054
+hostname: localhost
+
+2017-06-24 16:18:54,653 WARN 3054 [-/127.0.0.1/-/1ms POST /api/doc/upload] nodejs.UnauthorizedError: no token
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:12:17)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'no token'
+pid: 3054
+hostname: localhost
+
+2017-06-24 16:19:05,074 WARN 3054 [-/127.0.0.1/-/1ms POST /api/doc/upload] nodejs.UnauthorizedError: no token
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:12:17)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'no token'
+pid: 3054
+hostname: localhost
+
+2017-06-24 16:30:02,667 WARN 3200 [-/127.0.0.1/-/6ms POST /api/doc/upload] nodejs.UnauthorizedError: no token
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:12:17)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'no token'
+pid: 3200
+hostname: localhost
+
+2017-06-24 16:34:44,284 WARN 3248 [-/::1/-/12ms GET /api/folder/594ddf54b47404074d893c5b] nodejs.UnauthorizedError: invalid token
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:23:17)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'invalid token'
+pid: 3248
+hostname: localhost
+

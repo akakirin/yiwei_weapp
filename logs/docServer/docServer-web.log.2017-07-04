@@ -1,0 +1,53 @@
+2017-07-03 00:50:56,254 WARN 3720 [-/::1/-/74ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 3720
+hostname: localhost
+
+2017-07-04 09:49:39,700 WARN 646 [-/::1/-/10ms GET /api/folder] nodejs.UnauthorizedError: token expired
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:21:19)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'token expired'
+pid: 646
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:33:21,063 WARN 1332 [-/::1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 1332
+hostname: wujunyideMacBook-Pro.local
+

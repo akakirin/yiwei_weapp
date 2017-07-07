@@ -1,0 +1,293 @@
+2017-06-30 09:43:36,113 ERROR 1346 [egg-mongoose] mongodb://127.0.0.1/docLabel disconnected
+2017-06-30 09:43:36,067 ERROR 1347 [egg-mongoose] mongodb://127.0.0.1/docLabel disconnected
+2017-06-30 22:35:33,702 ERROR 1402 [egg-mongoose] mongodb://127.0.0.1/docLabel disconnected
+2017-06-30 22:35:33,705 ERROR 1402 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1402
+hostname: localhost
+
+2017-06-30 22:52:53,030 ERROR 1431 nodejs.ClusterClientNoResponseError: client no response in 131797ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1431
+hostname: localhost
+
+2017-07-01 17:30:41,704 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 4981306ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-01 20:51:22,000 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 10809654ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-01 22:53:05,342 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 7302967ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 02:50:52,478 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 3642386ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 04:51:36,779 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 7204277ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 06:00:28,069 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 4091261ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 07:01:12,537 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 3604436ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 09:01:56,858 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 7204294ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 10:41:08,151 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 5911241ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 11:32:15,550 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 1506958ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 15:24:47,842 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 10810601ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 16:53:08,252 ERROR 2086 nodejs.ClusterClientNoResponseError: client no response in 5299872ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 2086
+hostname: localhost
+
+2017-07-02 20:59:26,416 ERROR 3719 nodejs.ClusterClientNoResponseError: client no response in 6020167ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 3719
+hostname: localhost
+
+2017-07-02 23:55:57,307 ERROR 3719 nodejs.ClusterClientNoResponseError: client no response in 265825ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 3719
+hostname: localhost
+
+2017-07-03 12:00:37,791 ERROR 862 nodejs.ClusterClientNoResponseError: client no response in 1930102ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 862
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-03 13:13:11,189 ERROR 862 nodejs.ClusterClientNoResponseError: client no response in 1422295ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 862
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:09:28,190 ERROR 1112 nodejs.ClusterClientNoResponseError: client no response in 4903217ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1112
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:31:27,618 ERROR 1332 [-/::1/-/8ms GET /api/doc/595b27b6fb1bd905344e6b78] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:19:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1332
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:32:45,644 ERROR 1332 [-/::1/-/4ms GET /api/folder/595b030ad75abf03ca378b01] nodejs.TypeError: Cannot read property 'childFolders' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:33)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1332
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:32:46,883 ERROR 1332 [-/::1/-/8ms GET /api/folder/595b030ad75abf03ca378b01] nodejs.TypeError: Cannot read property 'childFolders' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:33)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1332
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:32:49,838 ERROR 1332 [-/::1/-/4ms GET /api/folder/595b030ad75abf03ca378b01] nodejs.TypeError: Cannot read property 'childFolders' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:33)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1332
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-04 13:54:06,928 ERROR 1212 nodejs.ClusterClientNoResponseError: client no response in 266184ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1212
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 01:18:20,043 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 10799277ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 09:33:24,437 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 29703044ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 10:20:50,010 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 594719ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 10:40:33,250 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 212706ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 12:08:00,026 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 2415528ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 13:08:23,861 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 2083068ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 13:42:52,309 ERROR 1481 nodejs.ClusterClientNoResponseError: client no response in 1117761ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1481
+hostname: wujunyideMacBook-Pro.local
+

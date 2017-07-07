@@ -1,0 +1,373 @@
+2017-06-14 02:07:42,493 WARN 2367 [-/127.0.0.1/-/13ms OPTIONS /api/upload] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'Method Not Allowed'
+pid: 2367
+hostname: localhost
+
+2017-06-14 02:08:53,500 WARN 2367 [-/127.0.0.1/-/2ms OPTIONS /api/upload] nodejs.MethodNotAllowedError: Method Not Allowed
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.notAllow (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/methodnoallow.js:18:17)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'Method Not Allowed'
+pid: 2367
+hostname: localhost
+
+2017-06-14 02:09:59,354 WARN 2367 [-/127.0.0.1/-/3ms POST /api/upload] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-14 02:09:59,355 WARN 2367 [-/127.0.0.1/-/4ms POST /api/upload] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:133:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'missing csrf token'
+pid: 2367
+hostname: localhost
+
+2017-06-14 02:11:20,645 WARN 2410 [-/127.0.0.1/-/11ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-14 02:11:20,648 WARN 2410 [-/127.0.0.1/-/14ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 2410
+hostname: localhost
+
+2017-06-14 02:11:28,003 WARN 2410 [-/127.0.0.1/-/1ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-14 02:11:28,004 WARN 2410 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 2410
+hostname: localhost
+
+2017-06-14 18:15:25,124 WARN 4803 [-/127.0.0.1/-/62ms POST /api/upload] nodejs.UnprocessableEntityError: fuck
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: 'fuck'
+pid: 4803
+hostname: bogon
+
+2017-06-14 18:15:39,083 WARN 4803 [-/127.0.0.1/-/72ms POST /api/upload] nodejs.UnprocessableEntityError: fuck
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: 'fuck'
+pid: 4803
+hostname: bogon
+
+2017-06-14 18:16:51,648 WARN 4832 [-/127.0.0.1/-/76ms POST /api/upload] nodejs.UnprocessableEntityError: fuck
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: 'fuck'
+pid: 4832
+hostname: bogon
+
+2017-06-14 18:17:45,028 WARN 4844 [-/127.0.0.1/-/83ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4844
+hostname: bogon
+
+2017-06-14 18:18:36,231 WARN 4854 [-/127.0.0.1/-/70ms POST /api/upload] nodejs.UnprocessableEntityError: Unprocessable Entity
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: 'Unprocessable Entity'
+pid: 4854
+hostname: bogon
+
+2017-06-14 18:19:07,300 WARN 4863 [-/127.0.0.1/-/66ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4863
+hostname: bogon
+
+2017-06-14 18:20:14,016 WARN 4863 [-/127.0.0.1/-/50ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4863
+hostname: bogon
+
+2017-06-14 18:20:37,810 WARN 4863 [-/127.0.0.1/-/57ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4863
+hostname: bogon
+
+2017-06-14 18:22:50,518 WARN 4897 [-/127.0.0.1/-/22ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4897
+hostname: bogon
+
+2017-06-14 18:23:19,834 WARN 4912 [-/127.0.0.1/-/95ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4912
+hostname: bogon
+
+2017-06-14 18:25:10,070 WARN 4912 [-/127.0.0.1/-/46ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4912
+hostname: bogon
+
+2017-06-14 18:26:31,173 WARN 4953 [-/127.0.0.1/-/62ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4953
+hostname: bogon
+
+2017-06-14 18:26:47,095 WARN 4953 [-/127.0.0.1/-/47ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4953
+hostname: bogon
+
+2017-06-14 18:27:44,171 WARN 4976 [-/127.0.0.1/-/83ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4976
+hostname: bogon
+
+2017-06-14 18:28:44,664 WARN 4991 [-/127.0.0.1/-/114ms POST /api/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: '文档格式有误'
+pid: 4991
+hostname: bogon
+
+2017-06-14 18:37:06,263 WARN 5108 [-/127.0.0.1/-/118ms POST /api/upload] nodejs.Error: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:64:23)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+expose: true
+statusCode: 401
+status: 401
+pid: 5108
+hostname: bogon
+
+2017-06-14 18:37:51,411 WARN 5147 [-/127.0.0.1/-/111ms POST /api/upload] nodejs.UnauthorizedError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5147
+hostname: bogon
+
+2017-06-14 18:38:56,169 WARN 5147 [-/127.0.0.1/-/65ms POST /api/upload] nodejs.UnauthorizedError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5147
+hostname: bogon
+
+2017-06-14 18:39:41,963 WARN 5178 [-/127.0.0.1/-/91ms POST /api/upload] nodejs.UnauthorizedError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5178
+hostname: bogon
+
+2017-06-14 18:42:38,297 WARN 5204 [-/127.0.0.1/-/84ms POST /api/upload] nodejs.UnauthorizedError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5204
+hostname: bogon
+
+2017-06-14 18:48:10,860 WARN 5247 [-/127.0.0.1/-/95ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:48:34,989 WARN 5247 [-/127.0.0.1/-/55ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:49:05,012 WARN 5247 [-/127.0.0.1/-/63ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:49:42,545 WARN 5247 [-/127.0.0.1/-/40ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:50:03,754 WARN 5247 [-/127.0.0.1/-/36ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:50:31,891 WARN 5247 [-/127.0.0.1/-/35ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:50:45,086 WARN 5247 [-/127.0.0.1/-/25ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:51:16,335 WARN 5247 [-/127.0.0.1/-/60ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5247
+hostname: bogon
+
+2017-06-14 18:53:31,735 WARN 5355 [-/127.0.0.1/-/103ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5355
+hostname: bogon
+
+2017-06-14 18:53:44,465 WARN 5355 [-/127.0.0.1/-/50ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:80:20)
+message: '文档内容有误'
+pid: 5355
+hostname: bogon
+

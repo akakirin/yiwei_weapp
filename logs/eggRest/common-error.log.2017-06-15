@@ -1,0 +1,174 @@
+2017-06-12 00:56:39,867 ERROR 5900 nodejs.ClusterClientNoResponseError: client no response in 125223ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 5900
+hostname: localhost
+
+2017-06-12 10:08:50,739 ERROR 637 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 disconnected
+2017-06-12 10:08:50,745 ERROR 637 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 637
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-12 11:58:16,023 ERROR 667 nodejs.ClusterClientNoResponseError: client no response in 799089ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 667
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-12 13:00:21,507 ERROR 667 nodejs.ClusterClientNoResponseError: client no response in 1565299ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 667
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-13 23:28:07,707 ERROR 1836 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 disconnected
+2017-06-13 23:28:07,711 ERROR 1836 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1836
+hostname: localhost
+
+2017-06-13 23:36:38,773 ERROR 1850 nodejs.ClusterClientNoResponseError: client no response in 313360ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1850
+hostname: localhost
+
+2017-06-14 12:16:00,232 ERROR 1257 nodejs.ClusterClientNoResponseError: client no response in 2701877ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1257
+hostname: bogon
+
+2017-06-14 13:04:12,187 ERROR 1257 nodejs.ClusterClientNoResponseError: client no response in 1231593ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1257
+hostname: bogon
+
+2017-06-14 14:13:07,008 ERROR 1257 nodejs.ClusterClientNoResponseError: client no response in 32241ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1257
+hostname: bogon
+
+2017-06-14 18:16:12,043 ERROR 4820 [-/127.0.0.1/-/82ms POST /api/upload] nodejs.InternalServerError: fuck
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:79:20)
+message: 'fuck'
+pid: 4820
+hostname: bogon
+
+2017-06-14 18:27:44,173 ERROR 4976 [-/127.0.0.1/-/85ms POST /api/upload] nodejs.TypeError: Cannot create property 'detail' on string '文档格式有误'
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/middleware/error_handler.js:16:26)
+    at throw (native)
+    at onRejected (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:81:24)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 4976
+hostname: bogon
+
+2017-06-15 19:42:46,004 ERROR 1667 nodejs.ClusterClientNoResponseError: client no response in 740031ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1667
+hostname: bogon
+
+2017-06-15 19:45:06,151 ERROR 1667 nodejs.ClusterClientNoResponseError: client no response in 100103ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1667
+hostname: bogon
+
+2017-06-15 20:03:09,274 ERROR 1667 nodejs.ClusterClientNoResponseError: client no response in 1063109ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1667
+hostname: bogon
+
+2017-06-15 20:45:42,651 ERROR 1667 nodejs.ClusterClientNoResponseError: client no response in 1282903ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1667
+hostname: bogon
+
+2017-06-15 22:40:34,362 ERROR 1667 nodejs.ClusterClientNoResponseError: client no response in 339604ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1667
+hostname: bogon
+
+2017-06-15 22:43:36,788 ERROR 1667 nodejs.ClusterClientNoResponseError: client no response in 142399ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1667
+hostname: bogon
+

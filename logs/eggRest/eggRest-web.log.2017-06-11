@@ -1,0 +1,427 @@
+2017-06-11 18:47:17,721 WARN 3721 [-/127.0.0.1/-/19ms POST /api/upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:47:17,725 WARN 3721 [-/127.0.0.1/-/23ms POST /api/upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:133:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'missing csrf token'
+pid: 3721
+hostname: localhost
+
+2017-06-11 18:47:52,078 WARN 3721 [-/127.0.0.1/-/3ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:47:52,080 WARN 3721 [-/127.0.0.1/-/5ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 3721
+hostname: localhost
+
+2017-06-11 18:48:44,905 WARN 3721 [-/127.0.0.1/-/1ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:48:44,908 WARN 3721 [-/127.0.0.1/-/4ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 3721
+hostname: localhost
+
+2017-06-11 18:49:18,333 WARN 3778 [-/127.0.0.1/-/15ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:49:18,343 WARN 3778 [-/127.0.0.1/-/25ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 3778
+hostname: localhost
+
+2017-06-11 18:53:28,476 WARN 3795 [-/127.0.0.1/-/8ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:53:28,482 WARN 3795 [-/127.0.0.1/-/12ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 3795
+hostname: localhost
+
+2017-06-11 18:53:38,728 WARN 3795 [-/127.0.0.1/-/1ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:53:38,729 WARN 3795 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 3795
+hostname: localhost
+
+2017-06-11 18:57:31,768 WARN 3832 [-/127.0.0.1/-/11ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-06-11 18:57:31,773 WARN 3832 [-/127.0.0.1/-/16ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.10.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 3832
+hostname: localhost
+
+2017-06-11 19:03:20,184 WARN 3892 [-/127.0.0.1/-/55ms POST /api/upload] nodejs.Error: Invalid filename: 0423-mird-107-3m.torrent
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 3892
+hostname: localhost
+
+2017-06-11 19:12:27,344 WARN 3975 [-/127.0.0.1/-/35ms POST /api/upload] nodejs.Error: Invalid filename: 0603.txt
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 3975
+hostname: localhost
+
+2017-06-11 19:12:42,483 WARN 3975 [-/127.0.0.1/-/181ms POST /api/upload] nodejs.Error: Invalid filename: unicom.png
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 3975
+hostname: localhost
+
+2017-06-11 21:37:19,270 WARN 5001 [-/127.0.0.1/-/40ms POST /api/upload] nodejs.Error: Invalid filename: 附件1-2017年征文论文要求.doc
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 5001
+hostname: localhost
+
+2017-06-11 22:46:05,763 WARN 5719 [-/127.0.0.1/-/13ms POST /api/upload] nodejs.Error: Invalid filename: 222.txt
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 5719
+hostname: localhost
+
+2017-06-11 23:06:08,206 WARN 5880 [-/127.0.0.1/-/27ms POST /api/upload] nodejs.Error: Invalid filename: 华为4G网管IP地址列表.eml
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 5880
+hostname: localhost
+
+2017-06-11 23:14:00,162 WARN 5950 [-/127.0.0.1/-/6ms POST /api/upload] nodejs.Error: Invalid filename: 222.txt
+    at checkFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg-multipart/app.js:69:23)
+    at Busboy.onFile (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.1@co-busboy/index.js:92:17)
+    at emitMany (events.js:127:13)
+    at Busboy.emit (events.js:201:7)
+    at Busboy.emit (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.14@busboy/lib/types/multipart.js:213:13)
+    at emitOne (events.js:96:13)
+    at PartStream.emit (events.js:188:7)
+    at HeaderParser.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:51:16)
+    at emitOne (events.js:96:13)
+    at HeaderParser.emit (events.js:188:7)
+    at HeaderParser._finish (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:40:12)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:127:10)
+    at emitMany (events.js:127:13)
+    at SBMH.emit (events.js:201:7)
+    at SBMH._sbmh_feed (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.1.2@streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.2.5@dicer/lib/Dicer.js:109:17)
+    at doWrite (_stream_writable.js:334:12)
+    at writeOrBuffer (_stream_writable.js:320:5)
+    at Dicer.Writable.write (_stream_writable.js:247:11)
+status: 400
+pid: 5950
+hostname: localhost
+

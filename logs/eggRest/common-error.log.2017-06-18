@@ -1,0 +1,116 @@
+2017-06-17 12:51:53,868 ERROR 1630 nodejs.ClusterClientNoResponseError: client no response in 620792ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1630
+hostname: localhost
+
+2017-06-17 15:34:59,857 ERROR 1630 nodejs.ClusterClientNoResponseError: client no response in 9765963ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1630
+hostname: localhost
+
+2017-06-17 18:33:52,326 ERROR 1476 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 disconnected
+2017-06-17 18:33:52,330 ERROR 1476 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1476
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-17 19:03:44,338 ERROR 1717 nodejs.ReferenceError: filepath is not defined (uncaughtException throw 1 times on pid:1717)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:167:27)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+pid: 1717
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-17 19:05:30,921 ERROR 1731 nodejs.ReferenceError: str is not defined (uncaughtException throw 1 times on pid:1731)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:172:22
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 1731
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-18 17:39:32,851 ERROR 702 [-/127.0.0.1/-/14ms POST /api/uploadtxt] nodejs.TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at fromObject (buffer.js:262:9)
+    at Function.Buffer.from (buffer.js:101:10)
+    at new Buffer (buffer.js:80:17)
+    at HomeController.uploadtxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:160:25)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 702
+hostname: localhost
+
+2017-06-18 17:40:17,444 ERROR 718 nodejs.ReferenceError: strtxtcd is not defined (uncaughtException throw 1 times on pid:718)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:174:22
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 718
+hostname: localhost
+
+2017-06-18 17:42:56,255 ERROR 745 nodejs.ReferenceError: binary is not defined (uncaughtException throw 1 times on pid:745)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:171:61
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 745
+hostname: localhost
+
+2017-06-18 17:53:21,675 ERROR 862 [-/127.0.0.1/-/13ms POST /api/uploadtxt] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at HomeController.uploadtxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:191:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 862
+hostname: localhost
+
+2017-06-18 17:54:17,909 ERROR 862 [-/127.0.0.1/-/10ms POST /api/uploadtxt] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at HomeController.uploadtxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:191:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 862
+hostname: localhost
+
+2017-06-18 21:25:19,469 ERROR 1937 [-/127.0.0.1/-/13ms POST /api/uploadtxt] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at HomeController.uploadtxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:193:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 1937
+hostname: localhost
+

@@ -1,0 +1,129 @@
+2017-06-20 18:30:12,309 ERROR 2733 [-/::1/-/6ms GET /api/check] nodejs.ReferenceError: error is not defined
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:23:19)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+
+pid: 2733
+hostname: bogon
+
+2017-06-20 18:32:25,052 ERROR 2742 [-/::1/-/6ms GET /api/check] nodejs.ReferenceError: error is not defined
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:23:19)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+
+pid: 2742
+hostname: bogon
+
+2017-06-21 12:17:25,731 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 2821784ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+
+2017-06-21 13:09:03,914 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 1837744ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+
+2017-06-21 15:53:44,854 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 358128ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+
+2017-06-21 20:04:36,346 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 10809970ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+
+2017-06-21 20:58:46,233 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 3229638ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+
+2017-06-21 22:28:56,627 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 1618419ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+
+2017-06-21 23:13:26,570 ERROR 776 nodejs.ClusterClientNoResponseError: client no response in 1249279ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 776
+hostname: bogon
+

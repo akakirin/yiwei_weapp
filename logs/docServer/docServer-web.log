@@ -1,0 +1,144 @@
+2017-07-05 15:32:53,995 WARN 4540 [-/::1/-/6ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.UnauthorizedError: token expired
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/verify_token.js:21:19)
+    at next (native)
+    at Object.dispatch (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.5.4.1@koa-router/lib/router.js:335:14)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+message: 'token expired'
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 21:47:58,737 WARN 4540 [-/::1/-/8ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:11:03,939 WARN 2182 [-/::1/-/30ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8081', 'Access-Control-Allow-Credentials': 'true' }
+pid: 2182
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:11:35,505 WARN 2206 [-/::1/-/26ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 2206
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:13:16,493 WARN 2206 [-/::1/-/5ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 2206
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:39:21,952 WARN 2369 [-/::1/-/20ms POST /api/doc/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2369
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:40:15,740 WARN 2391 [-/::1/-/31ms POST /api/doc/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2391
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:40:49,710 WARN 2391 [-/::1/-/32ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 2391
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:41:24,896 WARN 2409 [-/::1/-/35ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 2409
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:41:31,819 WARN 2409 [-/::1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 2409
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:42:08,871 WARN 2418 [-/::1/-/28ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 2418
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:42:16,710 WARN 2418 [-/::1/-/32ms POST /api/doc/upload] nodejs.UnprocessableEntityError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2418
+hostname: wujunyideMacBook-Pro.local
+

@@ -1,0 +1,1332 @@
+2017-06-23 00:13:00,451 ERROR 2008 [-/::1/-/20ms GET /api/folder] nodejs.ReferenceError: files is not defined
+    at FolderController.index (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:10:35)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2008
+hostname: localhost
+
+2017-06-23 00:32:52,051 ERROR 2033 [-/::1/-/58ms POST /api/folder] nodejs.MongoError: E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId('594beae85f82fa0785267b53') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594beae85f82fa0785267b53\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594beae85f82fa0785267b53\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 2033
+hostname: localhost
+
+2017-06-23 00:33:58,109 ERROR 2033 [-/::1/-/5ms POST /api/folder] nodejs.MongoError: E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId('594beae85f82fa0785267b53') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594beae85f82fa0785267b53\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594beae85f82fa0785267b53\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 2033
+hostname: localhost
+
+2017-06-23 00:35:24,897 ERROR 2155 [-/::1/-/42ms POST /api/folder] nodejs.MongoError: E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId('594beae85f82fa0785267b53') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594beae85f82fa0785267b53\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594beae85f82fa0785267b53\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 2155
+hostname: localhost
+
+2017-06-23 01:03:29,088 ERROR 2304 [-/::1/-/14ms GET /api/folder] nodejs.TypeError: Cannot read property 'folders' of null
+    at FolderController.index (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:15:30)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2304
+hostname: localhost
+
+2017-06-23 01:19:44,135 ERROR 2515 [-/::1/-/9ms GET /api/folder/222] nodejs.TypeError: Cannot read property 'id' of undefined
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:49:28)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+
+pid: 2515
+hostname: localhost
+
+2017-06-23 01:27:01,132 ERROR 2559 [-/::1/-/11ms GET /api/folder/222] nodejs.CastError: Cast to ObjectId failed for value "222" at path "_id" for model "Folders"
+    at MongooseError.CastError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.SchemaType._castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schematype.js:1023:15)
+    at ObjectId.castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/cast.js:232:32)
+    at Query.cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2934:12)
+    at Query.findOne (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:1396:10)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2747:21
+    at Query.exec (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2741:17)
+    at Query.then (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2789:15)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:100:51)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+message: 'Cast to ObjectId failed for value "222" at path "_id" for model "Folders"'
+name: 'CastError'
+stringValue: '"222"'
+kind: 'ObjectId'
+value: '222'
+path: '_id'
+reason: undefined
+model: { [Function: model]
+  hooks: Kareem { _pres: {}, _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: {},
+     modelSchemas: 
+      { Books: [Object],
+        Category: [Object],
+        Docs: [Object],
+        Folders: [Object],
+        Home: [Object],
+        Users: [Object] },
+     options: { pluralization: true } },
+  modelName: 'Folders',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Object],
+        models: {},
+        modelSchemas: [Object],
+        options: [Object] },
+     collections: 
+      { books: [Object],
+        categories: [Object],
+        docs: [Object],
+        folders: [Object],
+        homes: [Object],
+        users: [Object] },
+     models: 
+      { Books: [Object],
+        Category: [Object],
+        Docs: [Object],
+        Folders: [Circular],
+        Home: [Object],
+        Users: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: '127.0.0.1',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'docLabel',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     Schema: 
+      { [Function: Schema]
+        reserved: [Object],
+        interpretAsType: [Function],
+        Types: [Object],
+        ObjectId: [Object] },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4 },
+  discriminators: undefined,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: 
+      { name: [Function: String],
+        creater: [Object],
+        childDocs: [Object],
+        childFolders: [Object],
+        meta: [Object] },
+     paths: 
+      { name: [Object],
+        creater: [Object],
+        childDocs: [Object],
+        childFolders: [Object],
+        'meta.createAt': [Object],
+        'meta.updateAt': [Object],
+        _id: [Object],
+        __v: [Object] },
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: { meta: true },
+     inherits: {},
+     callQueue: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     _indexes: [],
+     methods: {},
+     statics: {},
+     tree: 
+      { name: [Function: String],
+        creater: [Object],
+        childDocs: [Object],
+        childFolders: [Object],
+        meta: [Object],
+        _id: [Object],
+        id: [Object],
+        __v: [Function: Number] },
+     query: {},
+     childSchemas: [],
+     plugins: [ [Object], [Object], [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     options: 
+      { retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: { bufferCommands: true, capped: false },
+     name: 'folders',
+     collectionName: 'folders',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: '127.0.0.1',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'docLabel',
+        options: [Object],
+        otherDbs: [],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        Schema: [Object],
+        _events: [Object],
+        _eventsCount: 4 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function] }
+pid: 2559
+hostname: localhost
+
+2017-06-23 12:16:22,730 ERROR 716 nodejs.ClusterClientNoResponseError: client no response in 1721968ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 716
+hostname: bogon
+
+2017-06-23 14:39:29,462 ERROR 1411 [-/::1/-/10ms GET /api/folder/594cb6f9f8894f0583e4c5db] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:30,705 ERROR 1411 [-/::1/-/12ms GET /api/folder/594cb6f9f8894f0583e4c5db] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:34,615 ERROR 1411 [-/::1/-/5ms GET /api/folder/594cb6f9f8894f0583e4c5db] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:36,556 ERROR 1411 [-/::1/-/5ms GET /api/folder/594cac403b1cdc05305c99f9] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:38,449 ERROR 1411 [-/::1/-/5ms GET /api/folder/594cac403b1cdc05305c99f9] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:39,081 ERROR 1411 [-/::1/-/6ms GET /api/folder/594cb6f9f8894f0583e4c5db] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:40,424 ERROR 1411 [-/::1/-/8ms GET /api/folder/594cb6f9f8894f0583e4c5db] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:39:44,101 ERROR 1411 [-/::1/-/19ms GET /api/folder/594cb6f9f8894f0583e4c5db] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:58:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1411
+hostname: bogon
+
+2017-06-23 14:54:48,955 ERROR 1298 nodejs.ClusterClientNoResponseError: client no response in 93823ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1298
+hostname: bogon
+
+2017-06-23 15:52:53,411 ERROR 1917 [-/::1/-/5ms GET /api/folder/594cc825ab7985077d70affe] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:65:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1917
+hostname: bogon
+
+2017-06-23 16:10:19,551 ERROR 1917 [-/::1/-/4ms GET /api/folder/594cc825ab7985077d70affe] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:65:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1917
+hostname: bogon
+
+2017-06-23 16:12:11,187 ERROR 1917 [-/::1/-/3ms GET /api/folder/594ccd52ab7985077d70b000] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:65:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1917
+hostname: bogon
+
+2017-06-23 16:15:08,848 ERROR 2085 [-/::1/-/8ms GET /api/folder/594cce0740995708257e8278] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2085
+hostname: bogon
+
+2017-06-23 21:17:55,378 ERROR 3190 [-/::1/-/5ms GET /api/folder/594d13a9ae9b270c76f784b5] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3190
+hostname: bogon
+
+2017-06-23 21:34:15,979 ERROR 3284 [-/::1/-/4ms DELETE /api/folder/594d18b18444f00cd4bc791f] nodejs.TypeError: Cannot read property 'length' of undefined
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:91:42)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3284
+hostname: bogon
+
+2017-06-23 21:38:58,778 ERROR 3292 [-/::1/-/4ms DELETE /api/folder/594d18b18444f00cd4bc791f] nodejs.TypeError: Cannot read property 'length' of undefined
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:91:42)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3292
+hostname: bogon
+
+2017-06-23 21:40:02,203 ERROR 3331 [-/::1/-/16ms DELETE /api/folder/594d18b18444f00cd4bc791f] nodejs.TypeError: Cannot read property 'length' of undefined
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:92:46)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3331
+hostname: bogon
+
+2017-06-23 21:40:59,011 ERROR 3340 [-/::1/-/9ms DELETE /api/folder/594d18b18444f00cd4bc791f] nodejs.CastError: Cast to ObjectId failed for value "{ name: '8888', id: 594d18af8444f00cd4bc791e }" at path "_id" for model "Folders"
+    at MongooseError.CastError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.SchemaType._castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schematype.js:1023:15)
+    at ObjectId.castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/cast.js:195:34)
+    at Query.cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2934:12)
+    at castQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2836:18)
+    at _update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2655:21)
+    at Query.update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2468:10)
+    at _update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/model.js:2411:16)
+    at Function.update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/model.js:2321:10)
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:94:23)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: 'Cast to ObjectId failed for value "{ name: \'8888\', id: 594d18af8444f00cd4bc791e }" at path "_id" for model "Folders"'
+name: 'CastError'
+stringValue: '"{ name: \'8888\', id: 594d18af8444f00cd4bc791e }"'
+kind: 'ObjectId'
+value: { name: '8888', id: 594d18af8444f00cd4bc791e }
+path: '_id'
+reason: undefined
+model: { [Function: model]
+  hooks: Kareem { _pres: {}, _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: {},
+     modelSchemas: 
+      { Books: [Object],
+        Category: [Object],
+        Docs: [Object],
+        Folders: [Object],
+        Home: [Object],
+        Users: [Object] },
+     options: { pluralization: true } },
+  modelName: 'Folders',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Object],
+        models: {},
+        modelSchemas: [Object],
+        options: [Object] },
+     collections: 
+      { books: [Object],
+        categories: [Object],
+        docs: [Object],
+        folders: [Object],
+        homes: [Object],
+        users: [Object] },
+     models: 
+      { Books: [Object],
+        Category: [Object],
+        Docs: [Object],
+        Folders: [Circular],
+        Home: [Object],
+        Users: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: '127.0.0.1',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'docLabel',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     Schema: 
+      { [Function: Schema]
+        reserved: [Object],
+        interpretAsType: [Function],
+        Types: [Object],
+        ObjectId: [Object] },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4 },
+  discriminators: undefined,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: 
+      { name: [Function: String],
+        creater: [Object],
+        fatherPath: [],
+        childDocs: [Object],
+        childFolders: [Object],
+        meta: [Object] },
+     paths: 
+      { name: [Object],
+        creater: [Object],
+        fatherPath: [Object],
+        childDocs: [Object],
+        childFolders: [Object],
+        'meta.createAt': [Object],
+        'meta.updateAt': [Object],
+        _id: [Object],
+        __v: [Object] },
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: { meta: true },
+     inherits: {},
+     callQueue: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     _indexes: [],
+     methods: {},
+     statics: {},
+     tree: 
+      { name: [Function: String],
+        creater: [Object],
+        fatherPath: [],
+        childDocs: [Object],
+        childFolders: [Object],
+        meta: [Object],
+        _id: [Object],
+        id: [Object],
+        __v: [Function: Number] },
+     query: {},
+     childSchemas: [],
+     plugins: [ [Object], [Object], [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     options: 
+      { retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true,
+     _requiredpaths: [],
+     _indexedpaths: [] },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: { bufferCommands: true, capped: false },
+     name: 'folders',
+     collectionName: 'folders',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: '127.0.0.1',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'docLabel',
+        options: [Object],
+        otherDbs: [],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        Schema: [Object],
+        _events: [Object],
+        _eventsCount: 4 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function] }
+pid: 3340
+hostname: bogon
+
+2017-06-24 11:40:45,415 ERROR 1869 [-/::1/-/8ms GET /api/folder/594ddf36b47404074d893c5a] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1869
+hostname: localhost
+
+2017-06-24 11:40:51,229 ERROR 1869 [-/::1/-/2ms GET /api/folder/594ddf36b47404074d893c5a] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 1869
+hostname: localhost
+
+2017-06-24 15:35:32,058 ERROR 1813 nodejs.ClusterClientNoResponseError: client no response in 933873ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1813
+hostname: localhost
+
+2017-06-24 15:58:49,502 ERROR 1813 nodejs.ClusterClientNoResponseError: client no response in 366819ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1813
+hostname: localhost
+
+2017-06-24 16:22:14,865 ERROR 3054 [-/::1/-/2ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:53:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 3054
+hostname: localhost
+
+2017-06-24 16:22:32,618 ERROR 3054 [-/::1/-/10ms POST /api/doc/upload] nodejs.ReferenceError: path is not defined
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:13:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3054
+hostname: localhost
+
+2017-06-24 17:41:59,519 ERROR 3674 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId('594bf217dc7ca2087cc5cf96') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId(\'594bf217dc7ca2087cc5cf96\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId(\'594bf217dc7ca2087cc5cf96\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 3674
+hostname: localhost
+
+2017-06-24 17:43:00,168 ERROR 3693 nodejs.TypeError: Assignment to constant variable.
+    at docObj.save.then.data (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:42:52)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3693
+hostname: localhost
+
+2017-06-24 17:44:15,379 ERROR 3708 nodejs.TypeError: docObj.save(...).exec is not a function (uncaughtException throw 1 times on pid:3708)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:42:33
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 3708
+hostname: localhost
+
+2017-06-24 17:44:50,278 ERROR 3723 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId('594bf217dc7ca2087cc5cf96') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId(\'594bf217dc7ca2087cc5cf96\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId(\'594bf217dc7ca2087cc5cf96\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 3723
+hostname: localhost
+
+2017-06-24 17:45:55,617 ERROR 3742 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId('594bf217dc7ca2087cc5cf96') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId(\'594bf217dc7ca2087cc5cf96\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : ObjectId(\'594bf217dc7ca2087cc5cf96\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 3742
+hostname: localhost
+
+2017-06-24 17:49:10,408 ERROR 3777 nodejs.TypeError: Assignment to constant variable.
+    at docObj.save.then.data (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:42:52)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3777
+hostname: localhost
+
+2017-06-24 18:00:52,653 ERROR 3836 nodejs.TypeError: Docs is not a constructor (uncaughtException throw 1 times on pid:3836)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:41:30
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 3836
+hostname: localhost
+
+2017-06-24 18:01:33,346 ERROR 3850 nodejs.ReferenceError: Users is not defined (uncaughtException throw 1 times on pid:3850)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:48:21
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 3850
+hostname: localhost
+
+2017-06-24 18:02:23,868 ERROR 3862 nodejs.CastError: Cast to ObjectId failed for value "" at path "docs" (uncaughtException throw 1 times on pid:3862)
+    at MongooseError.CastError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.SchemaType._castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schematype.js:1023:15)
+    at ObjectId.castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:187:15)
+    at SchemaArray.castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/array.js:253:20)
+    at castUpdateVal (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/services/query/castUpdate.js:290:17)
+    at walkUpdatePath (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/services/query/castUpdate.js:209:20)
+    at castUpdate (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/services/query/castUpdate.js:70:18)
+    at Query._castUpdate (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2823:10)
+    at _update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2673:23)
+    at Query.update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2468:10)
+    at _update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/model.js:2411:16)
+    at Function.update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/model.js:2321:10)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:49:27
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+message: 'Cast to ObjectId failed for value "" at path "docs" (uncaughtException throw 1 times on pid:3862)'
+name: 'CastError'
+stringValue: '""'
+kind: 'ObjectId'
+value: ''
+path: 'docs'
+reason: undefined
+pid: 3862
+hostname: localhost
+
+2017-06-24 18:10:05,727 ERROR 3923 nodejs.CastError: Cast to ObjectId failed for value "" at path "docs" (uncaughtException throw 1 times on pid:3923)
+    at MongooseError.CastError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.SchemaType._castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schematype.js:1023:15)
+    at ObjectId.castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:187:15)
+    at SchemaArray.castForQuery (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/schema/array.js:253:20)
+    at castUpdateVal (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/services/query/castUpdate.js:290:17)
+    at walkUpdatePath (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/services/query/castUpdate.js:209:20)
+    at castUpdate (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/services/query/castUpdate.js:70:18)
+    at Query._castUpdate (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2823:10)
+    at _update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2673:23)
+    at Query.update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/query.js:2468:10)
+    at _update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/model.js:2411:16)
+    at Function.update (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.10.0@mongoose/lib/model.js:2321:10)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:50:27
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+message: 'Cast to ObjectId failed for value "" at path "docs" (uncaughtException throw 1 times on pid:3923)'
+name: 'CastError'
+stringValue: '""'
+kind: 'ObjectId'
+value: ''
+path: 'docs'
+reason: undefined
+pid: 3923
+hostname: localhost
+
+2017-06-24 18:36:47,351 ERROR 4116 [-/::1/-/576ms POST /api/doc/upload] nodejs.ReferenceError: data is not defined
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:68:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4116
+hostname: localhost
+
+2017-06-24 19:11:52,580 ERROR 4198 [-/::1/-/10ms GET /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4198
+hostname: localhost
+
+2017-06-24 19:12:03,071 ERROR 4198 [-/::1/-/4ms GET /api/folder/594e40bff9da7d10146ef98e] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4198
+hostname: localhost
+
+2017-06-24 19:12:42,417 ERROR 4198 [-/::1/-/4ms DELETE /api/folder/594e40bff9da7d10146ef98e] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:90:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4198
+hostname: localhost
+
+2017-06-24 19:14:03,537 ERROR 4198 [-/::1/-/5ms GET /api/folder/594e40bff9da7d10146ef98e] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4198
+hostname: localhost
+
+2017-06-24 19:14:10,882 ERROR 4198 [-/::1/-/3ms GET /api/folder/594e40bff9da7d10146ef98e] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:68:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4198
+hostname: localhost
+
+2017-06-24 19:42:24,360 ERROR 4350 [-/::1/-/29ms GET /api/folder/594e40bff9da7d10146ef98e] nodejs.TypeError: Cannot read property 'creater' of null
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:70:37)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4350
+hostname: localhost
+
+2017-06-24 20:05:09,761 ERROR 4502 [-/::1/-/53ms GET /api/folder] nodejs.ReferenceError: docFiles is not defined
+    at FolderController.index (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:15:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4502
+hostname: localhost
+
+2017-06-24 20:15:24,118 ERROR 4557 [-/::1/-/53ms GET /api/folder] nodejs.SyntaxError: Unexpected token _ in JSON at position 2
+    at Object.parse (native)
+    at FolderController.index (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:14:28)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4557
+hostname: localhost
+
+2017-06-24 20:17:42,978 ERROR 4576 [-/::1/-/61ms GET /api/folder] nodejs.ReferenceError: name is not defined
+    at FolderController.index (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:17:31)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4576
+hostname: localhost
+
+2017-06-24 20:31:35,581 ERROR 4700 [-/::1/-/59ms GET /api/folder/594e2ad0e2f0780d21dbcc49] nodejs.ReferenceError: filesInfo is not defined
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:41)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4700
+hostname: localhost
+
+2017-06-24 20:31:39,911 ERROR 4700 [-/::1/-/23ms GET /api/folder/594e2ad0e2f0780d21dbcc49] nodejs.ReferenceError: filesInfo is not defined
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:41)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4700
+hostname: localhost
+
+2017-06-24 20:32:20,553 ERROR 4707 [-/::1/-/50ms GET /api/folder/594e2ad0e2f0780d21dbcc49] nodejs.TypeError: Cannot read property 'map' of undefined
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:41)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4707
+hostname: localhost
+
+2017-06-24 20:32:43,790 ERROR 4707 [-/::1/-/7ms GET /api/folder/594e2ad0e2f0780d21dbcc49] nodejs.TypeError: Cannot read property 'map' of undefined
+    at FolderController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:81:41)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4707
+hostname: localhost
+
+2017-06-24 20:49:11,246 ERROR 3938 nodejs.ClusterClientNoResponseError: client no response in 374761ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 3938
+hostname: localhost
+
+2017-06-24 20:54:00,349 ERROR 4720 [-/::1/-/3ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4720
+hostname: localhost
+
+2017-06-24 20:54:01,607 ERROR 4720 [-/::1/-/2ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4720
+hostname: localhost
+
+2017-06-24 20:54:02,143 ERROR 4720 [-/::1/-/2ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4720
+hostname: localhost
+
+2017-06-24 20:54:02,335 ERROR 4720 [-/::1/-/3ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4720
+hostname: localhost
+
+2017-06-24 20:54:02,752 ERROR 4720 [-/::1/-/2ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4720
+hostname: localhost
+
+2017-06-24 20:54:04,245 ERROR 4720 [-/::1/-/3ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4720
+hostname: localhost
+
+2017-06-24 21:13:26,536 ERROR 4833 [-/::1/-/4ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4833
+hostname: localhost
+
+2017-06-24 21:17:35,700 ERROR 4833 [-/::1/-/5ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4833
+hostname: localhost
+
+2017-06-24 21:18:06,498 ERROR 4833 [-/::1/-/2ms DELETE /api/folder/594e41058f5bbc1021995369] nodejs.TypeError: Cannot read property 'fatherPath' of null
+    at FolderController.destroy (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js:118:32)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4833
+hostname: localhost
+
+2017-06-24 22:52:31,180 ERROR 3938 nodejs.ClusterClientNoResponseError: client no response in 4908037ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 3938
+hostname: localhost
+

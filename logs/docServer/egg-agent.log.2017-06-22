@@ -1,0 +1,109 @@
+2017-06-22 00:00:00,140 INFO 2521 [egg-logrotator] agent logger reload: got log-reload message
+2017-06-22 10:33:37,433 INFO 730 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 10:33:37,874 INFO 730 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 10:33:38,090 INFO 730 [egg-mongoose] starting...
+2017-06-22 10:33:38,109 INFO 730 [egg-watcher:agent] watcher start success
+2017-06-22 10:33:38,141 INFO 730 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 10:33:38,163 INFO 730 [egg-mongoose] start successfully and server status is ok
+2017-06-22 20:43:33,472 INFO 903 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 20:43:33,933 INFO 903 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 20:43:34,148 INFO 903 [egg-mongoose] starting...
+2017-06-22 20:43:34,161 INFO 903 [egg-watcher:agent] watcher start success
+2017-06-22 20:43:34,182 INFO 903 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 20:43:34,192 INFO 903 [egg-mongoose] start successfully and server status is ok
+2017-06-22 21:58:56,915 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/folders.js rename
+2017-06-22 22:00:36,487 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/folders.js change
+2017-06-22 22:00:38,458 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/folders.js change
+2017-06-22 22:00:38,951 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/folders.js change
+2017-06-22 22:01:56,109 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/folders.js change
+2017-06-22 22:02:25,666 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:02:26,675 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:02:27,337 WARN 903 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:06:22,448 INFO 1407 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 22:06:22,765 INFO 1407 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 22:06:22,970 INFO 1407 [egg-mongoose] starting...
+2017-06-22 22:06:22,982 INFO 1407 [egg-watcher:agent] watcher start success
+2017-06-22 22:06:23,005 INFO 1407 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 22:06:23,016 INFO 1407 [egg-mongoose] start successfully and server status is ok
+2017-06-22 22:07:28,686 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:07:29,058 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:07:58,914 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:07:59,546 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:08:00,311 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:08:58,165 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:08:58,529 WARN 1407 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:11:15,245 INFO 1451 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 22:11:15,700 INFO 1451 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 22:11:15,917 INFO 1451 [egg-mongoose] starting...
+2017-06-22 22:11:15,934 INFO 1451 [egg-watcher:agent] watcher start success
+2017-06-22 22:11:15,974 INFO 1451 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 22:11:15,991 INFO 1451 [egg-mongoose] start successfully and server status is ok
+2017-06-22 22:12:40,511 INFO 1464 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 22:12:40,820 INFO 1464 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 22:12:40,998 INFO 1464 [egg-mongoose] starting...
+2017-06-22 22:12:41,008 INFO 1464 [egg-watcher:agent] watcher start success
+2017-06-22 22:12:41,029 INFO 1464 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 22:12:41,043 INFO 1464 [egg-mongoose] start successfully and server status is ok
+2017-06-22 22:14:51,208 WARN 1464 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-22 22:14:54,107 WARN 1464 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-22 22:16:15,126 WARN 1464 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:16:15,628 WARN 1464 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-22 22:18:57,328 INFO 1513 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 22:18:57,686 INFO 1513 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 22:18:57,871 INFO 1513 [egg-mongoose] starting...
+2017-06-22 22:18:57,881 INFO 1513 [egg-watcher:agent] watcher start success
+2017-06-22 22:18:57,916 INFO 1513 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 22:18:57,931 INFO 1513 [egg-mongoose] start successfully and server status is ok
+2017-06-22 22:23:36,071 INFO 1537 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 22:23:36,512 INFO 1537 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 22:23:36,722 INFO 1537 [egg-mongoose] starting...
+2017-06-22 22:23:36,735 INFO 1537 [egg-watcher:agent] watcher start success
+2017-06-22 22:23:36,755 INFO 1537 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 22:23:36,766 INFO 1537 [egg-mongoose] start successfully and server status is ok
+2017-06-22 22:23:48,642 INFO 1544 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 22:23:48,935 INFO 1544 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 22:23:49,120 INFO 1544 [egg-mongoose] starting...
+2017-06-22 22:23:49,129 INFO 1544 [egg-watcher:agent] watcher start success
+2017-06-22 22:23:49,152 INFO 1544 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 22:23:49,165 INFO 1544 [egg-mongoose] start successfully and server status is ok
+2017-06-22 22:28:58,673 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js rename
+2017-06-22 22:29:22,892 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:02:10,296 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/router.js change
+2017-06-22 23:02:10,711 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/router.js change
+2017-06-22 23:03:28,257 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:06:41,699 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/users.js change
+2017-06-22 23:07:20,209 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/users.js change
+2017-06-22 23:07:20,667 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/users.js change
+2017-06-22 23:07:21,382 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/users.js change
+2017-06-22 23:07:30,784 WARN 1544 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/users.js change
+2017-06-22 23:09:04,121 INFO 1658 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-22 23:09:04,448 INFO 1658 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-22 23:09:04,640 INFO 1658 [egg-mongoose] starting...
+2017-06-22 23:09:04,653 INFO 1658 [egg-watcher:agent] watcher start success
+2017-06-22 23:09:04,676 INFO 1658 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-22 23:09:04,686 INFO 1658 [egg-mongoose] start successfully and server status is ok
+2017-06-22 23:21:46,036 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:22:00,132 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:22:14,946 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:26:17,185 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:26:17,566 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:26:20,358 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:27:47,977 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/router.js change
+2017-06-22 23:27:48,668 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/router.js change
+2017-06-22 23:27:58,846 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/router.js change
+2017-06-22 23:36:31,613 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:36:40,039 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:36:40,669 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:42:36,213 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:42:36,565 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:51:43,483 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:54:28,060 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:54:28,408 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:57:04,777 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:57:05,265 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:58:51,371 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:58:51,734 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:59:52,377 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-22 23:59:52,757 WARN 1658 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/folder.js change
+2017-06-23 00:00:00,065 INFO 1658 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-23 00:00:00,087 INFO 1658 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js

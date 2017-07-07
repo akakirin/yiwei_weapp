@@ -1,0 +1,1206 @@
+2017-07-05 15:32:52,728 ERROR 4540 [-/::1/-/42ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:40:31,328 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:42:06,432 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:42:46,889 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:45:22,912 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:49:31,055 ERROR 4540 [-/::1/-/14ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:52:05,446 ERROR 4540 [-/::1/-/14ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:59:44,188 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 15:59:50,135 ERROR 4540 [-/::1/-/8ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:06:59,324 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:07:42,654 ERROR 4540 [-/::1/-/10ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:08:54,262 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:23:59,837 ERROR 4540 [-/::1/-/21ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:24:30,264 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:24:32,775 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:25:10,359 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:35:56,635 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:36:10,726 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:53:26,470 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:54:00,207 ERROR 4540 [-/::1/-/9ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:55:20,419 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:56:46,227 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:58:01,685 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:58:28,523 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 16:59:23,682 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:00:33,057 ERROR 4540 [-/::1/-/1ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:03:42,963 ERROR 4540 [-/::1/-/34ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:20:49,988 ERROR 4540 [-/::1/-/8ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:21:08,079 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:27:49,941 ERROR 4540 [-/::1/-/17ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:54:48,198 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:55:30,308 ERROR 4540 [-/::1/-/24ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:56:17,083 ERROR 4540 [-/::1/-/11ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:56:40,228 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 17:58:19,018 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:01:54,161 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:03:55,875 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:06:36,250 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:07:22,961 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:07:40,320 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:07:59,865 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:08:44,254 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:08:50,349 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:09:09,021 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:26:35,125 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:31:41,436 ERROR 4540 [-/::1/-/6ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:31:54,243 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:34:10,418 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:34:43,821 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:35:44,846 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:35:53,612 ERROR 4540 [-/::1/-/9ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:36:04,088 ERROR 4540 [-/::1/-/80ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:36:27,304 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:36:43,202 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:38:03,395 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:39:07,796 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:39:30,762 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:39:49,421 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:55:08,531 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:56:48,083 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:57:25,708 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:58:57,794 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 18:59:34,816 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:00:13,577 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:01:06,895 ERROR 4540 [-/::1/-/8ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:04:31,002 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:05:57,878 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:10:55,766 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:11:07,258 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:12:53,244 ERROR 4540 [-/::1/-/6ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 19:13:06,577 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 21:29:32,031 ERROR 4540 [-/::1/-/6ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 21:48:59,099 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-05 23:53:36,519 ERROR 4540 [-/::1/-/11ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:07:25,990 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:09:54,528 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:10:38,937 ERROR 4540 [-/::1/-/3ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:30:32,279 ERROR 4540 [-/::1/-/5ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:33:15,112 ERROR 4540 [-/::1/-/8ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:34:25,262 ERROR 4540 [-/::1/-/4ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:35:20,286 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:35:56,317 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:36:30,059 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:43:52,307 ERROR 4540 [-/::1/-/26ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:45:23,212 ERROR 4540 [-/::1/-/41ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:46:01,798 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:46:31,013 ERROR 4540 [-/::1/-/7ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:47:27,907 ERROR 4540 [-/::1/-/8ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:47:36,570 ERROR 4540 [-/::1/-/10ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:47:39,828 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:48:07,974 ERROR 4540 [-/::1/-/7ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 00:49:20,474 ERROR 4540 [-/::1/-/2ms GET /api/doc/595b27b6fb1bd905344e6b79] nodejs.TypeError: Cannot read property 'name' of null
+    at DocController.show (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:30:24)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4540
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 13:04:51,152 ERROR 712 nodejs.ClusterClientNoResponseError: client no response in 1858438ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 712
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:40:28,527 ERROR 2014 [-/::1/-/23ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:96:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2014
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:40:40,494 ERROR 2014 [-/::1/-/12ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:96:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2014
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:41:18,673 ERROR 2014 [-/::1/-/10ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:96:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2014
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:46:30,713 ERROR 2014 [-/::1/-/12ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:96:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2014
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:51:46,278 ERROR 2083 [-/::1/-/33ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2083
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:52:27,752 ERROR 2088 [-/::1/-/29ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:54:25,031 ERROR 2088 [-/::1/-/19ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:55:06,659 ERROR 2088 [-/::1/-/13ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:58:45,451 ERROR 2088 [-/::1/-/11ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 15:59:06,855 ERROR 2088 [-/::1/-/6ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:00:04,361 ERROR 2088 [-/::1/-/2ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:02:24,381 ERROR 2088 [-/::1/-/13ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:05:29,119 ERROR 2088 [-/::1/-/10ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:07:53,440 ERROR 2088 [-/::1/-/17ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2088
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:09:21,616 ERROR 2182 [-/::1/-/33ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8081', 'Access-Control-Allow-Credentials': 'true' }
+pid: 2182
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:10:23,766 ERROR 2182 [-/::1/-/10ms POST /api/doc/upload?father=595ce849e6f45c11bc9d878b] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8081', 'Access-Control-Allow-Credentials': 'true' }
+pid: 2182
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:11:58,748 ERROR 2206 [-/::1/-/17ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2206
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:25:29,211 ERROR 2206 [-/::1/-/8ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2206
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:25:58,352 ERROR 2258 [-/::1/-/34ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2258
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:28:18,247 ERROR 2272 [-/::1/-/26ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2272
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:29:58,757 ERROR 2272 [-/::1/-/15ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2272
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:30:12,431 ERROR 2272 [-/::1/-/7ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2272
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:32:01,911 ERROR 2299 [-/::1/-/38ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2299
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:33:01,185 ERROR 2309 [-/::1/-/28ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2309
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:34:00,955 ERROR 2325 [-/::1/-/37ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2325
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:34:43,847 ERROR 2333 [-/::1/-/34ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2333
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:35:07,747 ERROR 2333 [-/::1/-/10ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2333
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:37:12,918 ERROR 2333 [-/::1/-/12ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2333
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:40:49,712 ERROR 2391 [-/::1/-/33ms POST /api/login] nodejs.TypeError: Cannot create property 'detail' on string '用户不存在'
+    at Object.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/app/middleware/error_handler.js:20:26)
+    at throw (native)
+    at onRejected (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:81:24)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8081', 'Access-Control-Allow-Credentials': 'true' }
+pid: 2391
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:42:36,137 ERROR 2425 [-/::1/-/31ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2425
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:43:07,863 ERROR 2425 [-/::1/-/9ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2425
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:43:39,329 ERROR 2425 [-/::1/-/10ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2425
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:44:04,100 ERROR 2425 [-/::1/-/11ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2425
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:44:20,492 ERROR 2425 [-/::1/-/4ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2425
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-06 16:44:49,004 ERROR 2425 [-/::1/-/10ms POST /api/doc/upload] nodejs.InternalServerError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at DocController.upload (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:98:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 2425
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-07 09:40:31,116 ERROR 712 nodejs.ClusterClientNoResponseError: client no response in 53998466ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 712
+hostname: wujunyideMacBook-Pro.local
+
+2017-07-07 11:06:46,845 ERROR 712 nodejs.ClusterClientNoResponseError: client no response in 105831ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 712
+hostname: wujunyideMacBook-Pro.local
+

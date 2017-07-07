@@ -1,0 +1,211 @@
+2017-06-22 12:07:29,572 ERROR 730 nodejs.ClusterClientNoResponseError: client no response in 2218452ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 730
+hostname: bogon
+
+2017-06-22 13:11:31,021 ERROR 730 nodejs.ClusterClientNoResponseError: client no response in 2651016ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 730
+hostname: bogon
+
+2017-06-22 14:49:41,306 ERROR 730 nodejs.ClusterClientNoResponseError: client no response in 87123ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 730
+hostname: bogon
+
+2017-06-22 22:05:15,419 ERROR 1358 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1358
+hostname: localhost
+
+2017-06-22 22:06:56,183 ERROR 1408 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1408
+hostname: localhost
+
+2017-06-22 22:07:43,759 ERROR 1418 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1418
+hostname: localhost
+
+2017-06-22 22:09:32,204 ERROR 1434 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1434
+hostname: localhost
+
+2017-06-22 22:11:26,540 ERROR 1453 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1453
+hostname: localhost
+
+2017-06-22 22:13:03,354 ERROR 1465 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1465
+hostname: localhost
+
+2017-06-22 22:15:50,603 ERROR 1482 nodejs.MongoError: E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.docs index: creater_1 dup key: { : null }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1482
+hostname: localhost
+
+2017-06-22 23:59:05,556 ERROR 1854 [-/::1/-/58ms POST /api/folder] nodejs.MongoError: E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId('594bdd91da1cf1067b9788a0') }
+    at Function.MongoError.create (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.26@mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594bdd91da1cf1067b9788a0\') }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: docLabel.folders index: creater_1 dup key: { : ObjectId(\'594bdd91da1cf1067b9788a0\') }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 1854
+hostname: localhost
+

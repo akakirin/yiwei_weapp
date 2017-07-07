@@ -1,45 +1,48 @@
-2017-06-05 06:06:56,808 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 10809980ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
-    at ontimeout (timers.js:365:14)
-    at tryOnTimeout (timers.js:237:5)
-    at Timer.listOnTimeout (timers.js:207:5)
-name: 'ClusterClientNoResponseError'
-pid: 1159
-hostname: 192.168.1.4
+2017-06-20 10:29:30,672 ERROR 780 [egg-mongoose] mongodb://127.0.0.1/docLabel disconnected
+2017-06-20 10:29:30,676 ERROR 780 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 780
+hostname: bogon
 
-2017-06-05 09:18:58,518 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 11521347ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
-    at ontimeout (timers.js:365:14)
-    at tryOnTimeout (timers.js:237:5)
-    at Timer.listOnTimeout (timers.js:207:5)
-name: 'ClusterClientNoResponseError'
-pid: 1159
-hostname: 192.168.1.4
+2017-06-20 15:49:24,459 ERROR 1579 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Users.stats is not a function
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app.js:8:31
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at toPromise (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:54:5
+    at co (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:50:10)
+    at process.nextTick (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.3.7.0@egg-core/lib/egg.js:212:7)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+    at Module.runMain (module.js:606:11)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:509:3
 
-2017-06-05 11:43:44,019 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 182546ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
-    at ontimeout (timers.js:365:14)
-    at tryOnTimeout (timers.js:237:5)
-    at Timer.listOnTimeout (timers.js:207:5)
-name: 'ClusterClientNoResponseError'
-pid: 1159
-hostname: 192.168.1.4
-
-2017-06-05 11:57:35,275 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 790651ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
-    at ontimeout (timers.js:365:14)
-    at tryOnTimeout (timers.js:237:5)
-    at Timer.listOnTimeout (timers.js:207:5)
-name: 'ClusterClientNoResponseError'
-pid: 1159
-hostname: 192.168.1.4
-
-2017-06-05 13:23:18,665 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 1051132ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
-    at ontimeout (timers.js:365:14)
-    at tryOnTimeout (timers.js:237:5)
-    at Timer.listOnTimeout (timers.js:207:5)
-name: 'ClusterClientNoResponseError'
-pid: 1159
-hostname: 192.168.1.4
+pid: 1579
+hostname: bogon
 

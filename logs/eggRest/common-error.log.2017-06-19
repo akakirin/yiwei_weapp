@@ -1,0 +1,64 @@
+2017-06-19 03:48:25,064 ERROR 861 nodejs.ClusterClientNoResponseError: client no response in 7203918ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 861
+hostname: localhost
+
+2017-06-19 05:49:09,227 ERROR 861 nodejs.ClusterClientNoResponseError: client no response in 7204111ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 861
+hostname: localhost
+
+2017-06-19 07:49:53,450 ERROR 861 nodejs.ClusterClientNoResponseError: client no response in 7204200ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 861
+hostname: localhost
+
+2017-06-19 08:01:39,875 ERROR 861 nodejs.ClusterClientNoResponseError: client no response in 666393ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 861
+hostname: localhost
+
+2017-06-19 10:02:25,149 ERROR 861 nodejs.ClusterClientNoResponseError: client no response in 7205246ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 861
+hostname: localhost
+
+2017-06-19 11:29:49,488 ERROR 861 nodejs.ClusterClientNoResponseError: client no response in 5204306ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 861
+hostname: localhost
+
+2017-06-19 16:14:22,751 ERROR 4792 nodejs.ReferenceError: paragraph is not defined (uncaughtException throw 1 times on pid:4792)
+    at paragraphs.map.item (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js:178:32)
+    at Array.map (native)
+    at /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js:176:44
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 4792
+hostname: localhost
+

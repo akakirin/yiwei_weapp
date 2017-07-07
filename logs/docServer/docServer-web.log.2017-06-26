@@ -1,0 +1,28 @@
+2017-06-26 14:47:18,214 WARN 3457 [-/::1/-/48ms POST /api/doc/upload?father=5950aded0a39520d8185ea8e] nodejs.UnauthorizedError: 文档格式有误
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.catch.err (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/docs/doc.js:42:20)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '文档格式有误'
+pid: 3457
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-26 15:42:24,782 WARN 3582 [-/::1/-/4ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 3582
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-26 15:42:29,622 WARN 3582 [-/::1/-/3ms POST /api/login] nodejs.UnauthorizedError: 用户不存在
+    at Object.throw (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at TokenController.create (/Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js:33:18)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+message: '用户不存在'
+pid: 3582
+hostname: wujunyideMacBook-Pro.local
+

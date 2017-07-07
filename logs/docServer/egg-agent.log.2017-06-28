@@ -1,0 +1,16 @@
+2017-06-27 00:00:00,631 INFO 675 [egg-logrotator] agent logger reload: got log-reload message
+2017-06-27 10:02:33,798 INFO 675 [egg-mongoose] mongodb://127.0.0.1/docLabel reconnected successfully
+2017-06-27 10:05:10,109 INFO 1675 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-27 10:05:10,557 INFO 1675 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-27 10:05:10,773 INFO 1675 [egg-mongoose] starting...
+2017-06-27 10:05:10,791 INFO 1675 [egg-watcher:agent] watcher start success
+2017-06-27 10:05:10,823 INFO 1675 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-27 10:05:10,840 INFO 1675 [egg-mongoose] start successfully and server status is ok
+2017-06-28 14:55:56,871 INFO 5138 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-28 14:55:57,523 INFO 5138 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-28 14:55:57,810 INFO 5138 [egg-mongoose] starting...
+2017-06-28 14:55:57,836 INFO 5138 [egg-watcher:agent] watcher start success
+2017-06-28 14:55:57,882 INFO 5138 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-28 14:55:57,899 INFO 5138 [egg-mongoose] start successfully and server status is ok
+2017-06-29 00:00:02,197 INFO 5138 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-29 00:00:02,291 INFO 5138 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js

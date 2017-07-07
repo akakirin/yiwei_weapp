@@ -1,0 +1,247 @@
+2017-06-25 01:27:47,004 INFO 4882 [egg-logrotator] app logger reload: got log-reload message
+2017-06-25 04:05:14,426 WARN 4882 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-06-25 04:05:14,448 WARN 4882 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-25 08:04:15,606 WARN 4882 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-25 12:17:21,300 WARN 4882 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-25 16:44:44,593 WARN 4882 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-25 21:16:00,165 WARN 4882 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-26 01:16:32,683 WARN 4882 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-26 11:24:08,409 INFO 1817 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 11:24:08,463 INFO 1817 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 11:24:08,464 INFO 1817 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 11:24:08,741 INFO 1817 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 11:24:09,148 INFO 1817 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 11:24:09,148 INFO 1817 read data ok
+2017-06-26 11:24:09,294 INFO 1817 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 11:24:09,871 INFO 1817 [egg-mongoose] starting...
+2017-06-26 11:24:09,911 INFO 1817 [egg-watcher:app] watcher start success
+2017-06-26 11:24:09,942 INFO 1817 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 11:24:09,968 INFO 1817 [egg-mongoose] start successfully and server status is ok
+2017-06-26 11:28:28,155 INFO 1844 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 11:28:28,206 INFO 1844 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 11:28:28,206 INFO 1844 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 11:28:28,448 INFO 1844 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 11:28:28,728 INFO 1844 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 11:28:28,728 INFO 1844 read data ok
+2017-06-26 11:28:28,917 INFO 1844 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 11:28:29,226 INFO 1844 [egg-mongoose] starting...
+2017-06-26 11:28:29,253 INFO 1844 [egg-watcher:app] watcher start success
+2017-06-26 11:28:29,258 INFO 1844 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 11:28:29,268 INFO 1844 [egg-mongoose] start successfully and server status is ok
+2017-06-26 12:07:41,271 WARN 1844 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-06-26 14:45:08,760 INFO 3450 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:45:08,819 INFO 3450 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:45:08,819 INFO 3450 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:45:09,237 INFO 3450 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:45:09,728 INFO 3450 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:45:09,728 INFO 3450 read data ok
+2017-06-26 14:45:09,893 INFO 3450 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:45:10,206 INFO 3450 [egg-mongoose] starting...
+2017-06-26 14:45:10,238 INFO 3450 [egg-watcher:app] watcher start success
+2017-06-26 14:45:10,247 INFO 3450 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:45:10,258 INFO 3450 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:45:12,025 INFO 3451 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:45:12,069 INFO 3451 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:45:12,069 INFO 3451 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:45:12,311 INFO 3451 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:45:12,615 INFO 3451 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:45:12,615 INFO 3451 read data ok
+2017-06-26 14:45:12,704 INFO 3451 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:45:12,885 INFO 3451 [egg-mongoose] starting...
+2017-06-26 14:45:12,925 INFO 3451 [egg-watcher:app] watcher start success
+2017-06-26 14:45:12,934 INFO 3451 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:45:12,952 INFO 3451 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:45:13,727 INFO 3452 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:45:13,809 INFO 3452 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:45:13,809 INFO 3452 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:45:14,278 INFO 3452 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:45:14,809 INFO 3452 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:45:14,809 INFO 3452 read data ok
+2017-06-26 14:45:14,954 INFO 3452 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:45:15,185 INFO 3452 [egg-mongoose] starting...
+2017-06-26 14:45:15,224 INFO 3452 [egg-watcher:app] watcher start success
+2017-06-26 14:45:15,234 INFO 3452 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:45:15,346 INFO 3452 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:45:38,134 INFO 3457 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:45:38,175 INFO 3457 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:45:38,175 INFO 3457 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:45:38,848 INFO 3457 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:45:39,274 INFO 3457 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:45:39,274 INFO 3457 read data ok
+2017-06-26 14:45:39,411 INFO 3457 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:45:39,687 INFO 3457 [egg-mongoose] starting...
+2017-06-26 14:45:39,717 INFO 3457 [egg-watcher:app] watcher start success
+2017-06-26 14:45:39,723 INFO 3457 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:45:39,735 INFO 3457 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:49:18,415 INFO 3529 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:49:18,467 INFO 3529 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:49:18,468 INFO 3529 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:49:18,840 INFO 3529 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:49:19,645 INFO 3529 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:49:19,645 INFO 3529 read data ok
+2017-06-26 14:49:19,786 INFO 3529 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:49:20,079 INFO 3529 [egg-mongoose] starting...
+2017-06-26 14:49:20,114 INFO 3529 [egg-watcher:app] watcher start success
+2017-06-26 14:49:20,124 INFO 3529 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:49:20,141 INFO 3529 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:49:20,597 INFO 3531 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:49:20,641 INFO 3531 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:49:20,641 INFO 3531 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:49:20,867 INFO 3531 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:49:21,320 INFO 3531 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:49:21,320 INFO 3531 read data ok
+2017-06-26 14:49:21,555 INFO 3531 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:49:21,732 INFO 3531 [egg-mongoose] starting...
+2017-06-26 14:49:21,761 INFO 3531 [egg-watcher:app] watcher start success
+2017-06-26 14:49:21,771 INFO 3531 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:49:21,783 INFO 3531 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:54:44,467 INFO 3581 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:54:44,523 INFO 3581 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:54:44,524 INFO 3581 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:54:45,030 INFO 3581 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:54:45,482 INFO 3581 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:54:45,482 INFO 3581 read data ok
+2017-06-26 14:54:45,625 INFO 3581 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:54:45,885 INFO 3581 [egg-mongoose] starting...
+2017-06-26 14:54:45,916 INFO 3581 [egg-watcher:app] watcher start success
+2017-06-26 14:54:45,923 INFO 3581 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:54:45,936 INFO 3581 [egg-mongoose] start successfully and server status is ok
+2017-06-26 14:54:46,383 INFO 3582 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 14:54:46,429 INFO 3582 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 14:54:46,429 INFO 3582 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 14:54:46,666 INFO 3582 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 14:54:46,947 INFO 3582 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 14:54:46,947 INFO 3582 read data ok
+2017-06-26 14:54:47,036 INFO 3582 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 14:54:47,245 INFO 3582 [egg-mongoose] starting...
+2017-06-26 14:54:47,421 INFO 3582 [egg-watcher:app] watcher start success
+2017-06-26 14:54:47,442 INFO 3582 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 14:54:47,589 INFO 3582 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:09:31,600 INFO 3809 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:09:31,653 INFO 3809 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:09:31,653 INFO 3809 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:09:32,028 INFO 3809 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:09:32,515 INFO 3809 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:09:32,515 INFO 3809 read data ok
+2017-06-26 16:09:32,674 INFO 3809 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:09:32,948 INFO 3809 [egg-mongoose] starting...
+2017-06-26 16:09:32,981 INFO 3809 [egg-watcher:app] watcher start success
+2017-06-26 16:09:32,990 INFO 3809 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:09:33,004 INFO 3809 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:09:33,424 INFO 3810 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:09:33,465 INFO 3810 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:09:33,465 INFO 3810 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:09:33,686 INFO 3810 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:09:33,948 INFO 3810 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:09:33,948 INFO 3810 read data ok
+2017-06-26 16:09:34,022 INFO 3810 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:09:34,233 INFO 3810 [egg-mongoose] starting...
+2017-06-26 16:09:34,263 INFO 3810 [egg-watcher:app] watcher start success
+2017-06-26 16:09:34,268 INFO 3810 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:09:34,279 INFO 3810 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:11:08,102 INFO 3813 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:11:08,152 INFO 3813 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:11:08,152 INFO 3813 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:11:08,523 INFO 3813 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:11:08,938 INFO 3813 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:11:08,938 INFO 3813 read data ok
+2017-06-26 16:11:09,085 INFO 3813 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:11:09,366 INFO 3813 [egg-mongoose] starting...
+2017-06-26 16:11:09,396 INFO 3813 [egg-watcher:app] watcher start success
+2017-06-26 16:11:09,402 INFO 3813 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:11:09,413 INFO 3813 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:26:08,953 INFO 3845 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:26:09,008 INFO 3845 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:26:09,008 INFO 3845 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:26:09,392 INFO 3845 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:26:09,800 INFO 3845 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:26:09,800 INFO 3845 read data ok
+2017-06-26 16:26:09,937 INFO 3845 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:26:10,266 INFO 3845 [egg-mongoose] starting...
+2017-06-26 16:26:10,542 INFO 3845 [egg-watcher:app] watcher start success
+2017-06-26 16:26:10,560 INFO 3845 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:26:10,578 INFO 3845 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:26:11,060 INFO 3847 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:26:11,107 INFO 3847 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:26:11,107 INFO 3847 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:26:11,340 INFO 3847 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:26:11,636 INFO 3847 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:26:11,636 INFO 3847 read data ok
+2017-06-26 16:26:11,712 INFO 3847 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:26:11,977 INFO 3847 [egg-mongoose] starting...
+2017-06-26 16:26:12,079 INFO 3847 [egg-watcher:app] watcher start success
+2017-06-26 16:26:12,085 INFO 3847 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:26:12,104 INFO 3847 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:27:12,006 INFO 3856 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:27:12,071 INFO 3856 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:27:12,071 INFO 3856 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:27:12,438 INFO 3856 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:27:12,876 INFO 3856 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:27:12,876 INFO 3856 read data ok
+2017-06-26 16:27:13,022 INFO 3856 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:27:13,288 INFO 3856 [egg-mongoose] starting...
+2017-06-26 16:27:13,312 INFO 3856 [egg-watcher:app] watcher start success
+2017-06-26 16:27:13,318 INFO 3856 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:27:13,328 INFO 3856 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:28:19,513 INFO 3876 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:28:19,568 INFO 3876 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:28:19,568 INFO 3876 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:28:19,933 INFO 3876 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:28:20,352 INFO 3876 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:28:20,352 INFO 3876 read data ok
+2017-06-26 16:28:20,483 INFO 3876 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:28:20,743 INFO 3876 [egg-mongoose] starting...
+2017-06-26 16:28:20,772 INFO 3876 [egg-watcher:app] watcher start success
+2017-06-26 16:28:20,780 INFO 3876 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:28:20,792 INFO 3876 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:28:21,198 INFO 3877 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:28:21,238 INFO 3877 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:28:21,239 INFO 3877 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:28:21,455 INFO 3877 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:28:21,724 INFO 3877 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:28:21,724 INFO 3877 read data ok
+2017-06-26 16:28:21,793 INFO 3877 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:28:21,969 INFO 3877 [egg-mongoose] starting...
+2017-06-26 16:28:22,000 INFO 3877 [egg-watcher:app] watcher start success
+2017-06-26 16:28:22,005 INFO 3877 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:28:22,015 INFO 3877 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:28:59,778 INFO 3882 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:28:59,829 INFO 3882 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:28:59,830 INFO 3882 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:29:00,201 INFO 3882 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:29:00,726 INFO 3882 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:29:00,726 INFO 3882 read data ok
+2017-06-26 16:29:00,859 INFO 3882 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:29:01,132 INFO 3882 [egg-mongoose] starting...
+2017-06-26 16:29:01,175 INFO 3882 [egg-watcher:app] watcher start success
+2017-06-26 16:29:01,183 INFO 3882 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:29:01,200 INFO 3882 [egg-mongoose] start successfully and server status is ok
+2017-06-26 16:29:01,990 INFO 3884 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 16:29:02,036 INFO 3884 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 16:29:02,036 INFO 3884 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 16:29:02,269 INFO 3884 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 16:29:02,566 INFO 3884 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 16:29:02,566 INFO 3884 read data ok
+2017-06-26 16:29:02,778 INFO 3884 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 16:29:02,968 INFO 3884 [egg-mongoose] starting...
+2017-06-26 16:29:03,004 INFO 3884 [egg-watcher:app] watcher start success
+2017-06-26 16:29:03,011 INFO 3884 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 16:29:03,030 INFO 3884 [egg-mongoose] start successfully and server status is ok
+2017-06-26 21:28:56,668 INFO 677 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"docServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-06-26 21:28:56,721 INFO 677 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-26 21:28:56,721 INFO 677 [egg-schedule]: register schedule egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-26 21:28:57,067 INFO 677 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-26 21:28:57,632 INFO 677 [当前 SDK 使用配置] => { appId: '', appSecret: '' }
+2017-06-26 21:28:57,632 INFO 677 read data ok
+2017-06-26 21:28:57,767 INFO 677 [egg-static] starting static serve /public/ -> /Users/wujunyi/Desktop/node/docLabel/docServer/app/public
+2017-06-26 21:28:58,036 INFO 677 [egg-mongoose] starting...
+2017-06-26 21:28:58,068 INFO 677 [egg-watcher:app] watcher start success
+2017-06-26 21:28:58,075 INFO 677 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-26 21:28:58,091 INFO 677 [egg-mongoose] start successfully and server status is ok
+2017-06-27 00:00:00,548 INFO 677 [egg-schedule]: get message egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-27 00:00:00,589 INFO 677 [egg-schedule]: get message egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-06-27 00:00:00,604 INFO 677 [egg-logrotator] clean all log before 31 days
+2017-06-27 00:00:00,604 INFO 677 [egg-schedule] egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js excute succeed, used 15ms
+2017-06-27 00:00:00,606 INFO 677 [egg-logrotator] broadcast log-reload
+2017-06-27 00:00:00,612 INFO 677 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/common-error.log -> /Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/common-error.log.2017-06-26","/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/docServer-web.log -> /Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/docServer-web.log.2017-06-26","/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/egg-web.log -> /Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/egg-web.log.2017-06-26","/Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/egg-agent.log -> /Users/wujunyi/Desktop/node/docLabel/docServer/logs/docServer/egg-agent.log.2017-06-26"]
+2017-06-27 00:00:00,612 INFO 677 [egg-schedule] egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js excute succeed, used 49ms

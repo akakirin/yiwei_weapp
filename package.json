@@ -1,13 +1,21 @@
 {
-  "name": "eggRest",
+  "name": "docServer",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "dependencies": {
     "egg": "^1.2.1",
+    "egg-cors": "^1.1.0",
     "egg-mongoose": "^2.1.0",
+    "egg-redis": "^1.0.1",
+    "egg-weapp-sdk": "^1.1.1",
     "excel-export": "^0.5.1",
-    "node-xlsx": "^0.7.4"
+    "iconv-lite": "^0.4.17",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "mammoth": "^1.4.1",
+    "node-xlsx": "^0.7.4",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "autod": "^2.8.0",

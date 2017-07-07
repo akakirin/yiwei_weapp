@@ -1,0 +1,21 @@
+2017-06-17 17:27:08,485 WARN 936 [-/127.0.0.1/-/227ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:140:20)
+message: '文档内容有误'
+pid: 936
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-17 17:27:50,546 WARN 960 [-/127.0.0.1/-/227ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:140:20)
+message: '文档内容有误'
+pid: 960
+hostname: wujunyideMacBook-Pro.local
+
+2017-06-17 17:31:05,630 WARN 985 [-/127.0.0.1/-/294ms POST /api/upload] nodejs.UnsupportedMediaTypeError: 文档内容有误
+    at Object.throw (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/context.js:89:23)
+    at streamPromise.then.catch.err (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:139:20)
+message: '文档内容有误'
+pid: 985
+hostname: wujunyideMacBook-Pro.local
+

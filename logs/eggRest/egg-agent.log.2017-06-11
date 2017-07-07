@@ -1,0 +1,384 @@
+2017-06-05 01:12:04,612 INFO 1159 [egg-logrotator] agent logger reload: got log-reload message
+2017-06-09 16:08:26,349 INFO 2505 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-09 16:08:26,843 INFO 2505 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-09 16:08:26,889 INFO 2505 [egg-mongoose] starting...
+2017-06-09 16:08:26,901 INFO 2505 [egg-watcher:agent] watcher start success
+2017-06-09 16:09:52,148 INFO 2562 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-09 16:09:52,583 INFO 2562 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-09 16:09:52,624 INFO 2562 [egg-mongoose] starting...
+2017-06-09 16:09:52,636 INFO 2562 [egg-watcher:agent] watcher start success
+2017-06-09 16:09:52,658 INFO 2562 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-09 16:09:52,665 INFO 2562 [egg-mongoose] start successfully and server status is ok
+2017-06-11 02:19:32,399 INFO 1603 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 02:19:32,911 INFO 1603 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 02:19:33,131 INFO 1603 [egg-mongoose] starting...
+2017-06-11 02:19:33,150 INFO 1603 [egg-watcher:agent] watcher start success
+2017-06-11 02:19:49,787 INFO 1616 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 02:19:50,057 INFO 1616 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 02:19:50,220 INFO 1616 [egg-mongoose] starting...
+2017-06-11 02:19:50,231 INFO 1616 [egg-watcher:agent] watcher start success
+2017-06-11 02:19:50,254 INFO 1616 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 02:19:50,262 INFO 1616 [egg-mongoose] start successfully and server status is ok
+2017-06-11 02:20:52,266 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:22:43,682 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:22:49,772 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:25:11,334 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:25:51,481 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:26:32,627 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:26:51,040 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:34:20,982 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:34:36,834 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:35:35,912 WARN 1616 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:49:22,844 INFO 1909 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 02:49:23,291 INFO 1909 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 02:49:23,500 INFO 1909 [egg-mongoose] starting...
+2017-06-11 02:49:23,517 INFO 1909 [egg-watcher:agent] watcher start success
+2017-06-11 02:49:23,537 INFO 1909 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 02:49:23,546 INFO 1909 [egg-mongoose] start successfully and server status is ok
+2017-06-11 02:49:43,048 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:50:01,754 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:50:30,628 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:50:59,221 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:53:25,657 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 02:53:48,348 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:04:48,233 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:05:27,764 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:05:44,036 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:07:09,797 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:10:47,607 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:10:49,992 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:19:03,457 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:19:07,530 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:19:08,294 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:19:16,690 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:19:17,307 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:20:06,719 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:21:05,240 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:21:16,796 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:21:43,785 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:22:27,253 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:22:44,660 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:22:45,054 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:23:01,546 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:23:26,643 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:23:30,560 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:32:15,740 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/model/home.js rename
+2017-06-11 03:32:51,877 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/model/home.js change
+2017-06-11 03:37:47,695 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/model/home.js change
+2017-06-11 03:37:48,027 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/model/home.js change
+2017-06-11 03:38:51,535 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:39:06,096 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:42:33,000 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:45:00,458 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:45:00,800 WARN 1909 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:45:20,381 INFO 2509 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:45:20,686 INFO 2509 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:45:20,871 INFO 2509 [egg-mongoose] starting...
+2017-06-11 03:45:20,886 INFO 2509 [egg-watcher:agent] watcher start success
+2017-06-11 03:45:20,913 INFO 2509 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:45:20,926 INFO 2509 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:45:41,185 INFO 2515 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:45:41,451 INFO 2515 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:45:41,613 INFO 2515 [egg-mongoose] starting...
+2017-06-11 03:45:41,623 INFO 2515 [egg-watcher:agent] watcher start success
+2017-06-11 03:45:41,650 INFO 2515 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:45:41,657 INFO 2515 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:46:17,376 INFO 2527 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:46:17,803 INFO 2527 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:46:18,010 INFO 2527 [egg-mongoose] starting...
+2017-06-11 03:46:18,026 INFO 2527 [egg-watcher:agent] watcher start success
+2017-06-11 03:46:18,053 INFO 2527 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:46:18,059 INFO 2527 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:46:56,788 INFO 2556 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:46:57,268 INFO 2556 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:46:57,481 INFO 2556 [egg-mongoose] starting...
+2017-06-11 03:46:57,499 INFO 2556 [egg-watcher:agent] watcher start success
+2017-06-11 03:46:57,523 INFO 2556 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:46:57,529 INFO 2556 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:48:41,258 INFO 2604 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:48:41,514 INFO 2604 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:48:41,671 INFO 2604 [egg-mongoose] starting...
+2017-06-11 03:48:41,682 INFO 2604 [egg-watcher:agent] watcher start success
+2017-06-11 03:48:51,113 INFO 2616 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:48:51,388 INFO 2616 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:48:51,547 INFO 2616 [egg-mongoose] starting...
+2017-06-11 03:48:51,559 INFO 2616 [egg-watcher:agent] watcher start success
+2017-06-11 03:48:51,585 INFO 2616 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:48:51,592 INFO 2616 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:51:07,518 INFO 2649 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:51:07,953 INFO 2649 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:51:08,163 INFO 2649 [egg-mongoose] starting...
+2017-06-11 03:51:08,176 INFO 2649 [egg-watcher:agent] watcher start success
+2017-06-11 03:51:08,199 INFO 2649 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:51:08,211 INFO 2649 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:51:58,640 INFO 2662 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:51:58,914 INFO 2662 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:51:59,094 INFO 2662 [egg-mongoose] starting...
+2017-06-11 03:51:59,109 INFO 2662 [egg-watcher:agent] watcher start success
+2017-06-11 03:51:59,131 INFO 2662 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:51:59,137 INFO 2662 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:53:12,359 INFO 2691 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 03:53:12,694 INFO 2691 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 03:53:12,875 INFO 2691 [egg-mongoose] starting...
+2017-06-11 03:53:12,886 INFO 2691 [egg-watcher:agent] watcher start success
+2017-06-11 03:53:12,910 INFO 2691 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 03:53:12,924 INFO 2691 [egg-mongoose] start successfully and server status is ok
+2017-06-11 03:53:41,136 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:54:53,529 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:59:50,968 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 03:59:53,324 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:00:37,264 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/router.js change
+2017-06-11 04:00:48,821 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:01:11,202 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:02:00,102 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:02:00,798 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:08:06,354 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:08:16,599 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 04:08:19,948 WARN 2691 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 14:10:50,082 INFO 1884 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 14:10:50,576 INFO 1884 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 14:10:50,816 INFO 1884 [egg-mongoose] starting...
+2017-06-11 14:10:50,836 INFO 1884 [egg-watcher:agent] watcher start success
+2017-06-11 14:10:50,861 INFO 1884 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 14:10:50,867 INFO 1884 [egg-mongoose] start successfully and server status is ok
+2017-06-11 15:00:08,392 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:02:20,123 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:02:48,813 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:02:49,472 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:19:09,267 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:22:51,544 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:22:57,383 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:23:32,475 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:24:06,872 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:24:15,275 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:24:25,634 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:36:22,976 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:36:23,906 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:37:35,728 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:37:40,184 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:38:13,973 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:38:31,033 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:42:38,660 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:43:01,943 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:43:06,257 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:43:17,652 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:43:30,567 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:54:58,187 WARN 1884 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 15:59:11,811 INFO 2727 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 15:59:12,252 INFO 2727 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 15:59:12,459 INFO 2727 [egg-mongoose] starting...
+2017-06-11 15:59:12,472 INFO 2727 [egg-watcher:agent] watcher start success
+2017-06-11 15:59:12,493 INFO 2727 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 15:59:12,500 INFO 2727 [egg-mongoose] start successfully and server status is ok
+2017-06-11 15:59:43,910 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/router.js change
+2017-06-11 16:00:49,673 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:02:57,806 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:03:26,957 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:03:27,905 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:04:13,434 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:16:22,225 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:33:57,317 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:35:13,385 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 16:35:38,994 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 17:41:22,111 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 17:42:57,257 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 17:46:35,432 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/router.js change
+2017-06-11 17:51:42,217 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 17:51:43,163 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 17:53:53,363 WARN 2727 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 17:54:02,388 INFO 3500 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 17:54:02,815 INFO 3500 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 17:54:03,019 INFO 3500 [egg-mongoose] starting...
+2017-06-11 17:54:03,033 INFO 3500 [egg-watcher:agent] watcher start success
+2017-06-11 17:54:03,058 INFO 3500 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 17:54:03,070 INFO 3500 [egg-mongoose] start successfully and server status is ok
+2017-06-11 18:39:13,948 INFO 3624 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 18:39:14,386 INFO 3624 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 18:39:14,584 INFO 3624 [egg-mongoose] starting...
+2017-06-11 18:39:14,598 INFO 3624 [egg-watcher:agent] watcher start success
+2017-06-11 18:39:14,620 INFO 3624 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 18:39:14,631 INFO 3624 [egg-mongoose] start successfully and server status is ok
+2017-06-11 18:39:45,551 INFO 3638 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 18:39:45,829 INFO 3638 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 18:39:46,010 INFO 3638 [egg-mongoose] starting...
+2017-06-11 18:39:46,022 INFO 3638 [egg-watcher:agent] watcher start success
+2017-06-11 18:39:46,047 INFO 3638 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 18:39:46,059 INFO 3638 [egg-mongoose] start successfully and server status is ok
+2017-06-11 18:40:49,527 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 18:42:11,899 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 18:42:12,289 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 18:43:55,108 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 18:49:01,386 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 18:53:16,931 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 18:53:18,043 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 18:56:46,967 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 18:57:21,319 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 18:57:21,720 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 18:59:00,959 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 18:59:01,588 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:00:39,000 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:00:39,610 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:00:40,176 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:00:40,849 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:01:19,944 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 19:02:04,363 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 19:03:09,667 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:03:12,117 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/plugin.js change
+2017-06-11 19:09:50,920 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 19:09:51,613 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 19:11:02,222 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 19:12:16,404 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 19:12:16,813 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 19:14:34,336 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 19:24:31,037 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 19:26:20,726 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 19:27:11,920 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 19:27:26,003 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:18:05,652 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:18:31,434 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:20:42,654 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:21:48,093 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:23:33,502 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:23:54,081 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:24:00,148 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:25:38,055 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:30:19,229 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:30:25,220 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:30:46,202 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:30:53,751 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:30:54,350 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:33:40,864 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:33:56,637 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:34:17,866 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:44:01,987 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:49:24,518 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:49:25,100 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:51:28,790 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:51:52,223 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:57:24,311 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 20:57:24,724 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:26:22,755 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:33:19,138 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:33:29,430 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:34:31,835 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:36:02,896 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:37:13,879 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:37:14,286 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:38:06,027 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:39:06,766 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:39:48,922 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/config/config.default.js change
+2017-06-11 21:41:48,380 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:43:29,367 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:43:37,263 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:43:56,574 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:44:09,154 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:46:24,929 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:46:42,218 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:47:19,190 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:54:31,752 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:56:17,867 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:56:30,874 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:57:32,477 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:58:26,464 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:58:30,860 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:58:48,060 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 21:59:56,363 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:01:00,915 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:01:56,790 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:02:18,854 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:14:14,368 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:14:36,901 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:15:10,399 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:15:53,705 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:15:54,328 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:16:19,220 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:17:52,791 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:18:44,354 WARN 3638 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:18:57,624 INFO 5440 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 22:18:58,012 INFO 5440 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 22:18:58,229 INFO 5440 [egg-mongoose] starting...
+2017-06-11 22:18:58,241 INFO 5440 [egg-watcher:agent] watcher start success
+2017-06-11 22:18:58,265 INFO 5440 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 22:18:58,277 INFO 5440 [egg-mongoose] start successfully and server status is ok
+2017-06-11 22:19:30,832 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:19:50,272 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:19:56,080 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:19:56,898 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:20:48,987 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:21:39,852 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:21:40,502 WARN 5440 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:22:47,734 INFO 5521 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 22:22:48,152 INFO 5521 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 22:22:48,751 INFO 5521 [egg-mongoose] starting...
+2017-06-11 22:22:48,776 INFO 5521 [egg-watcher:agent] watcher start success
+2017-06-11 22:22:48,967 INFO 5521 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 22:22:48,992 INFO 5521 [egg-mongoose] start successfully and server status is ok
+2017-06-11 22:26:45,439 WARN 5521 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:26:52,932 WARN 5521 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:27:04,566 WARN 5521 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:29:18,049 WARN 5521 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:29:35,157 INFO 5572 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 22:29:35,549 INFO 5572 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 22:29:35,762 INFO 5572 [egg-mongoose] starting...
+2017-06-11 22:29:35,784 INFO 5572 [egg-watcher:agent] watcher start success
+2017-06-11 22:29:35,872 INFO 5572 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 22:29:35,905 INFO 5572 [egg-mongoose] start successfully and server status is ok
+2017-06-11 22:29:49,890 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:31:17,976 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:31:45,441 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:40:05,407 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:41:35,211 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:41:55,927 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:42:21,624 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:43:04,962 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:44:23,102 WARN 5572 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:44:28,620 INFO 5718 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 22:44:28,959 INFO 5718 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 22:44:29,164 INFO 5718 [egg-mongoose] starting...
+2017-06-11 22:44:29,179 INFO 5718 [egg-watcher:agent] watcher start success
+2017-06-11 22:44:29,199 INFO 5718 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 22:44:29,210 INFO 5718 [egg-mongoose] start successfully and server status is ok
+2017-06-11 22:47:31,430 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:47:31,819 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:47:32,266 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:47:32,794 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:49:42,309 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:58:12,221 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:58:28,192 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:58:29,238 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:58:37,759 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 22:58:38,353 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:00:05,634 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:00:39,648 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:03:17,230 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:04:46,959 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:05:41,882 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:05:45,003 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:06:04,397 WARN 5718 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:06:57,702 INFO 5900 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/eggRest/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-11 23:06:58,181 INFO 5900 [egg-mongoose] connecting mongodb://127.0.0.1/yiweiv3
+2017-06-11 23:06:58,392 INFO 5900 [egg-mongoose] starting...
+2017-06-11 23:06:58,406 INFO 5900 [egg-watcher:agent] watcher start success
+2017-06-11 23:06:58,429 INFO 5900 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 connected successfully
+2017-06-11 23:06:58,440 INFO 5900 [egg-mongoose] start successfully and server status is ok
+2017-06-11 23:07:33,683 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:13:17,950 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:17:37,029 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:17:37,372 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:19:40,683 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:19:59,522 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:21:39,527 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:22:21,330 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:22:42,220 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:23:42,216 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:23:42,717 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:23:48,285 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:27:03,366 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:27:03,784 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:27:09,067 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:27:57,071 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:28:30,229 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:29:09,570 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-11 23:29:37,874 WARN 5900 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-12 00:00:00,085 INFO 5900 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-12 00:00:00,105 INFO 5900 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js

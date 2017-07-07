@@ -1,0 +1,33 @@
+2017-06-19 00:02:55,243 INFO 861 [egg-logrotator] agent logger reload: got log-reload message
+2017-06-19 15:41:42,607 WARN 861 [agent:development] reload worker because /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js change
+2017-06-19 15:50:19,274 INFO 4704 [egg:logger] init all loggers with options: {"dir":"/Users/wujunyi/Desktop/node/docLabel/docServer/logs/eggRest","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"eggRest-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-06-19 15:50:19,730 INFO 4704 [egg-mongoose] connecting mongodb://127.0.0.1/docLabel
+2017-06-19 15:50:19,935 INFO 4704 [egg-mongoose] starting...
+2017-06-19 15:50:19,951 INFO 4704 [egg-watcher:agent] watcher start success
+2017-06-19 15:50:19,978 INFO 4704 [egg-mongoose] mongodb://127.0.0.1/docLabel connected successfully
+2017-06-19 15:50:19,992 INFO 4704 [egg-mongoose] start successfully and server status is ok
+2017-06-19 15:51:05,792 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs rename
+2017-06-19 15:51:35,218 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js rename
+2017-06-19 15:52:10,770 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 15:52:11,198 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 15:54:43,340 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 15:54:53,244 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 15:59:25,215 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 15:59:26,311 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 16:00:24,662 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/token.js rename
+2017-06-19 16:06:00,804 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:07:30,093 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:07:40,641 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:14:12,865 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:14:13,250 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:14:44,586 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:16:43,019 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:17:04,141 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 16:17:04,577 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/model/docs.js change
+2017-06-19 16:19:08,427 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:19:19,936 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:19:33,655 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:22:25,324 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-19 16:22:25,679 WARN 4704 [agent:development] reload worker because /Users/wujunyi/Desktop/node/docLabel/docServer/app/controller/home.js change
+2017-06-20 00:00:00,754 INFO 4704 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-06-20 00:00:00,775 INFO 4704 [egg-schedule] send message: sendRandom egg-schedule:/Users/wujunyi/Desktop/node/docLabel/docServer/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js

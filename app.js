@@ -1,38 +1,34 @@
-var xlsx = require("node-xlsx");
-var excelPort = require('excel-export');
+
 
 module.exports = app => {
   app.beforeStart(function* () {
     const ctx = app.createAnonymousContext(),
-      Books = ctx.model.Books,
-      Category = ctx.model.Category,
-      booklist = xlsx.parse("./app/public/bookWithIsbnxx.xlsx")[0].data;
-    const booksnow = yield Books.find();
-    if(booksnow.length === 0) {
-      for(let i=1;i<booklist.length;i++){
-        const bookName = booklist[i][0],
-          picUrl = booklist[i][1],
-          ISBN = booklist[i][2],
-          author = booklist[i][3],
-          summary = booklist[i][4],
-          category = booklist[i][5],
-          bookObj = new Books({bookName,picUrl,ISBN,author,summary,category});
-        yield bookObj.save();
-      }
-      const cats = yield Books.find({},{category:1,_id:0});
-      var catset = new Set();
-      for(let v of cats) {
-        catset.add(v.category)
-      }
-      for(let c of catset) {
-        const bookListByCat = yield Books.find({category:c},{_id:1}),
-          books = bookListByCat.map(x=>x._id),
-          name = c,
-          catObj = new Category({name,books});
-        yield catObj.save();
-      }
+      Users = ctx.model.Users,
+      Folders = ctx.model.Folders,
+      userCount = yield Users.count();
+    if(userCount === 0) {
+      const userMail = "admin@doclabel.com",
+        nickName = userMail.split('@')[0],
+        password = "666666",
+        userObj = new Users({nickName,userMail,password});
+      yield userObj.save();
+
+      console.log("Create admin,Let's do it yo~");
     }else{
       console.log("Data is ready,let's do it yo~");
+    }
+    const Labels = ctx.model.Labels,
+      labelCount = yield Labels.count();
+    if(labelCount === 0) {
+      const labels = [[3,9],[17,38],[4,15]];
+      for(let l of labels) {
+        const labelObj = new Labels({
+          range: l
+        })
+        yield labelObj.save();
+      }
+    }else {
+      console.log("labels ready");
     }
   })
 };

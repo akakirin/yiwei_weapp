@@ -1,0 +1,1513 @@
+2017-06-05 06:06:56,808 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 10809980ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1159
+hostname: 192.168.1.4
+
+2017-06-05 09:18:58,518 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 11521347ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1159
+hostname: 192.168.1.4
+
+2017-06-05 11:43:44,019 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 182546ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1159
+hostname: 192.168.1.4
+
+2017-06-05 11:57:35,275 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 790651ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1159
+hostname: 192.168.1.4
+
+2017-06-05 13:23:18,665 ERROR 1159 nodejs.ClusterClientNoResponseError: client no response in 1051132ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.6.4@cluster-client/lib/leader.js:72:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+name: 'ClusterClientNoResponseError'
+pid: 1159
+hostname: 192.168.1.4
+
+2017-06-09 16:08:26,906 ERROR 2505 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 disconnected
+2017-06-09 16:08:26,910 ERROR 2505 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 2505
+hostname: bogon
+
+2017-06-11 02:19:33,155 ERROR 1603 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 disconnected
+2017-06-11 02:19:33,160 ERROR 1603 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1603
+hostname: localhost
+
+2017-06-11 02:35:41,687 ERROR 1775 nodejs.TypeError: Unknown encoding: utf-16 (uncaughtException throw 1 times on pid:1775)
+    at Buffer.slowToString (buffer.js:479:17)
+    at Buffer.toString (buffer.js:492:27)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:14:28
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+
+pid: 1775
+hostname: localhost
+
+2017-06-11 02:49:28,770 ERROR 1910 nodejs.ReferenceError: buf is not defined (uncaughtException throw 1 times on pid:1910)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:16:32
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 1910
+hostname: localhost
+
+2017-06-11 02:49:48,075 ERROR 1910 nodejs.ReferenceError: buf is not defined (uncaughtException throw 2 times on pid:1910)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:16:32
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 1910
+hostname: localhost
+
+2017-06-11 03:23:39,426 ERROR 2325 nodejs.Error: Encoding not recognized: 'unicode' (searched as: 'unicode') (uncaughtException throw 1 times on pid:2325)
+    at Object.getCodec (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.4.17@iconv-lite/lib/index.js:106:23)
+    at Object.getDecoder (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.4.17@iconv-lite/lib/index.js:122:23)
+    at Object.decode (/Users/wujunyi/Desktop/node/eggRest/node_modules/.0.4.17@iconv-lite/lib/index.js:40:25)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:16:25
+    at tryToString (fs.js:455:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+
+pid: 2325
+hostname: localhost
+
+2017-06-11 03:48:41,687 ERROR 2604 [egg-mongoose] mongodb://127.0.0.1/yiweiv3 disconnected
+2017-06-11 03:48:41,691 ERROR 2604 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 2604
+hostname: localhost
+
+2017-06-11 03:52:02,086 ERROR 2665 nodejs.EADDRINUSEError: bind EADDRINUSE null:7001 (uncaughtException throw 1 times on pid:2665)
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at cb (net.js:1324:16)
+    at rr (cluster.js:625:14)
+    at Worker.<anonymous> (cluster.js:594:9)
+    at process.<anonymous> (cluster.js:765:8)
+    at emitTwo (events.js:111:20)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:744:12)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+code: 'EADDRINUSE'
+errno: 'EADDRINUSE'
+syscall: 'bind'
+address: null
+port: 7001
+name: 'EADDRINUSEError'
+pid: 2665
+hostname: localhost
+
+2017-06-11 03:52:02,117 ERROR 2663 nodejs.EADDRINUSEError: bind EADDRINUSE null:7001 (uncaughtException throw 1 times on pid:2663)
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at cb (net.js:1324:16)
+    at rr (cluster.js:625:14)
+    at Worker.<anonymous> (cluster.js:594:9)
+    at process.<anonymous> (cluster.js:765:8)
+    at emitTwo (events.js:111:20)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:744:12)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+code: 'EADDRINUSE'
+errno: 'EADDRINUSE'
+syscall: 'bind'
+address: null
+port: 7001
+name: 'EADDRINUSEError'
+pid: 2663
+hostname: localhost
+
+2017-06-11 03:52:02,145 ERROR 2664 nodejs.EADDRINUSEError: bind EADDRINUSE null:7001 (uncaughtException throw 1 times on pid:2664)
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at cb (net.js:1324:16)
+    at rr (cluster.js:625:14)
+    at Worker.<anonymous> (cluster.js:594:9)
+    at process.<anonymous> (cluster.js:765:8)
+    at emitTwo (events.js:111:20)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:744:12)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+code: 'EADDRINUSE'
+errno: 'EADDRINUSE'
+syscall: 'bind'
+address: null
+port: 7001
+name: 'EADDRINUSEError'
+pid: 2664
+hostname: localhost
+
+2017-06-11 03:52:02,173 ERROR 2666 nodejs.EADDRINUSEError: bind EADDRINUSE null:7001 (uncaughtException throw 1 times on pid:2666)
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at cb (net.js:1324:16)
+    at rr (cluster.js:625:14)
+    at Worker.<anonymous> (cluster.js:594:9)
+    at process.<anonymous> (cluster.js:765:8)
+    at emitTwo (events.js:111:20)
+    at process.emit (events.js:191:7)
+    at process.nextTick (internal/child_process.js:744:12)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+code: 'EADDRINUSE'
+errno: 'EADDRINUSE'
+syscall: 'bind'
+address: null
+port: 7001
+name: 'EADDRINUSEError'
+pid: 2666
+hostname: localhost
+
+2017-06-11 04:01:26,555 ERROR 2761 [-/::1/-/14ms GET /api/gethome] nodejs.ReferenceError: databuf is not defined
+    at HomeController.gettxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:30:21)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2761
+hostname: localhost
+
+2017-06-11 04:11:48,302 ERROR 2796 [-/::1/-/11ms GET /api/books/withcat] nodejs.CastError: Cast to ObjectId failed for value "withcat" at path "_id" for model "Books"
+    at MongooseError.CastError (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.SchemaType._castForQuery (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/schematype.js:1023:15)
+    at ObjectId.castForQuery (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/cast.js:232:32)
+    at Query.cast (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/query.js:2934:12)
+    at Query.findOne (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/query.js:1396:10)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/query.js:2747:21
+    at Query.exec (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/query.js:2741:17)
+    at Query.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.10.0@mongoose/lib/query.js:2789:15)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:100:51)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+message: 'Cast to ObjectId failed for value "withcat" at path "_id" for model "Books"'
+name: 'CastError'
+stringValue: '"withcat"'
+kind: 'ObjectId'
+value: 'withcat'
+path: '_id'
+reason: undefined
+model: { [Function: model]
+  hooks: Kareem { _pres: {}, _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: {},
+     modelSchemas: { Books: [Object], Category: [Object], Home: [Object] },
+     options: { pluralization: true } },
+  modelName: 'Books',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Object],
+        models: {},
+        modelSchemas: [Object],
+        options: [Object] },
+     collections: { books: [Object], categories: [Object], homes: [Object] },
+     models: { Books: [Circular], Category: [Object], Home: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: '127.0.0.1',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'yiweiv3',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     Schema: 
+      { [Function: Schema]
+        reserved: [Object],
+        interpretAsType: [Function],
+        Types: [Object],
+        ObjectId: [Object] },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4 },
+  discriminators: undefined,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: 
+      { bookName: [Function: String],
+        picUrl: [Function: String],
+        ISBN: [Object],
+        author: [Function: String],
+        category: [Function: String],
+        summary: [Function: String],
+        borrow_or_not: [Object],
+        meta: [Object] },
+     paths: 
+      { bookName: [Object],
+        picUrl: [Object],
+        ISBN: [Object],
+        author: [Object],
+        category: [Object],
+        summary: [Object],
+        borrow_or_not: [Object],
+        'meta.createAt': [Object],
+        'meta.updateAt': [Object],
+        _id: [Object],
+        __v: [Object] },
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: { meta: true },
+     inherits: {},
+     callQueue: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     _indexes: [],
+     methods: {},
+     statics: {},
+     tree: 
+      { bookName: [Function: String],
+        picUrl: [Function: String],
+        ISBN: [Object],
+        author: [Function: String],
+        category: [Function: String],
+        summary: [Function: String],
+        borrow_or_not: [Object],
+        meta: [Object],
+        _id: [Object],
+        id: [Object],
+        __v: [Function: Number] },
+     query: {},
+     childSchemas: [],
+     plugins: [ [Object], [Object], [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     options: 
+      { retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true,
+     _requiredpaths: [] },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: { bufferCommands: true, capped: false },
+     name: 'books',
+     collectionName: 'books',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: '127.0.0.1',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'yiweiv3',
+        options: [Object],
+        otherDbs: [],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        Schema: [Object],
+        _events: [Object],
+        _eventsCount: 4 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function] }
+pid: 2796
+hostname: localhost
+
+2017-06-11 15:23:36,190 ERROR 2450 [-/::1/-/53ms GET /api/gethome] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.gettxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:34:13)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2450
+hostname: localhost
+
+2017-06-11 15:36:33,251 ERROR 2523 [-/::1/-/47ms GET /api/gethome] nodejs.TypeError: re.text is not a function
+    at HomeController.gettxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:37:22)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2523
+hostname: localhost
+
+2017-06-11 15:37:48,372 ERROR 2546 [-/::1/-/38ms GET /api/gethome] nodejs.TypeError: re.text is not a function
+    at HomeController.gettxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:37:22)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2546
+hostname: localhost
+
+2017-06-11 15:43:09,528 ERROR 2610 [-/::1/-/47ms GET /api/gethome] nodejs.TypeError: re.text is not a function
+    at HomeController.gettxt (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:37:22)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 2610
+hostname: localhost
+
+2017-06-11 16:03:31,606 ERROR 2812 [-/::1/-/15ms GET /api/readword] nodejs.TypeError: this._target is not a function
+    at Object.Promise.value (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/synchronous_inspection.js:84:28)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:136:8
+    at Object.thunkToPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:135:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:119:55)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+
+pid: 2812
+hostname: localhost
+
+2017-06-11 16:34:04,126 ERROR 3030 [-/::1/-/37ms GET /api/readword] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/wujunyi/Desktop/node/eggRest/app/public/2017年it战略人才遴选笔试内容介绍资料.docx'
+    at Error (native)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at ret (eval at makeNodePromisifiedEval (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promisify.js:184:12), <anonymous>:8:21)
+    at Object.openZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/unzip.js:14:16)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.readword (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:32:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+cause: { Error: ENOENT: no such file or directory, open '/Users/wujunyi/Desktop/node/eggRest/app/public/2017年it战略人才遴选笔试内容介绍资料.docx' at Error (native) errno: -2, code: 'ENOENT', syscall: 'open', path: '/Users/wujunyi/Desktop/node/eggRest/app/public/2017年it战略人才遴选笔试内容介绍资料.docx' }
+isOperational: true
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/wujunyi/Desktop/node/eggRest/app/public/2017年it战略人才遴选笔试内容介绍资料.docx'
+pid: 3030
+hostname: localhost
+
+2017-06-11 16:35:16,437 ERROR 3038 [-/::1/-/22ms GET /api/readword] nodejs.Error: Can't find end of central directory : is this a zip file ? If it is, see http://stuk.github.io/jszip/documentation/howto/read_zip.html
+    at Object.readEndOfCentral (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:149:23)
+    at Object.load (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:215:14)
+    at Object.ZipEntries (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:21:14)
+    at Object.module.exports [as load] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/load.js:11:18)
+    at Object.JSZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/index.js:39:14)
+    at openArrayBuffer (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/zipfile.js:8:19)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:636:18)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/nodeback.js:42:21
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at Object.openZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/unzip.js:14:39)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.readword (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:32:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+
+pid: 3038
+hostname: localhost
+
+2017-06-11 16:35:40,300 ERROR 3038 [-/::1/-/6ms GET /api/readword] nodejs.Error: Can't find end of central directory : is this a zip file ? If it is, see http://stuk.github.io/jszip/documentation/howto/read_zip.html
+    at Object.readEndOfCentral (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:149:23)
+    at Object.load (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:215:14)
+    at Object.ZipEntries (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:21:14)
+    at Object.module.exports [as load] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/load.js:11:18)
+    at Object.JSZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/index.js:39:14)
+    at openArrayBuffer (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/zipfile.js:8:19)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:636:18)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/nodeback.js:42:21
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at Object.openZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/unzip.js:14:39)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.readword (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:32:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+
+pid: 3038
+hostname: localhost
+
+2017-06-11 19:00:52,553 ERROR 3852 [-/127.0.0.1/-/13ms POST /api/upload] nodejs.ReferenceError: ctx is not defined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:54:28)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:118:63)
+    at next (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:69:7)
+
+pid: 3852
+hostname: localhost
+
+2017-06-11 19:01:32,063 ERROR 3868 [-/127.0.0.1/-/32ms POST /api/upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:62:31)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 3868
+hostname: localhost
+
+2017-06-11 19:26:27,496 ERROR 4110 [-/127.0.0.1/-/33ms POST /api/upload] nodejs.TypeError: Cannot read property 'buffer' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:39)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4110
+hostname: localhost
+
+2017-06-11 20:25:42,587 ERROR 4443 [-/127.0.0.1/-/33ms POST /api/upload] nodejs.TypeError: Cannot read property 'buffer' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:54)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4443
+hostname: localhost
+
+2017-06-11 20:30:35,144 ERROR 4462 [-/127.0.0.1/-/49ms POST /api/upload] nodejs.ReferenceError: stream is not defined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:58)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4462
+hostname: localhost
+
+2017-06-11 20:30:48,996 ERROR 4462 [-/127.0.0.1/-/9ms POST /api/upload] nodejs.ReferenceError: stream is not defined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:58)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4462
+hostname: localhost
+
+2017-06-11 20:33:44,373 ERROR 4509 [-/127.0.0.1/-/43ms POST /api/upload] nodejs.ReferenceError: binary is not defined
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:41
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4509
+hostname: localhost
+
+2017-06-11 20:33:59,418 ERROR 4514 [-/127.0.0.1/-/30ms POST /api/upload] nodejs.TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at fromObject (buffer.js:262:9)
+    at Function.Buffer.from (buffer.js:101:10)
+    at new Buffer (buffer.js:80:17)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:25
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4514
+hostname: localhost
+
+2017-06-11 20:44:07,814 ERROR 4559 [-/127.0.0.1/-/38ms POST /api/upload] nodejs.TypeError: Cannot read property 'on' of undefined
+    at FileStream.Readable.pipe (_stream_readable.js:501:7)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:30
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4559
+hostname: localhost
+
+2017-06-11 20:50:22,083 ERROR 4599 [-/127.0.0.1/-/24ms POST /api/upload] nodejs.TypeError: dest.on is not a function
+    at FileStream.Readable.pipe (_stream_readable.js:501:8)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:57:14
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 4599
+hostname: localhost
+
+2017-06-11 21:39:59,111 ERROR 5041 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:32
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+name: 'unhandledRejectionError'
+pid: 5041
+hostname: localhost
+
+2017-06-11 21:41:27,868 ERROR 5041 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:32
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+name: 'unhandledRejectionError'
+pid: 5041
+hostname: localhost
+
+2017-06-11 21:42:10,545 ERROR 5071 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at /Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:32
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+name: 'unhandledRejectionError'
+pid: 5071
+hostname: localhost
+
+2017-06-11 21:43:44,458 ERROR 5116 [-/127.0.0.1/-/44ms POST /api/upload] nodejs.ReferenceError: data is not defined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:56:72)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5116
+hostname: localhost
+
+2017-06-11 21:44:13,941 ERROR 5131 [-/127.0.0.1/-/58ms POST /api/upload] nodejs.Error: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5131
+hostname: localhost
+
+2017-06-11 21:44:52,175 ERROR 5131 [-/127.0.0.1/-/21ms POST /api/upload] nodejs.Error: Corrupted zip : can't find end of central directory
+    at Object.readEndOfCentral (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:152:23)
+    at Object.load (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:215:14)
+    at Object.ZipEntries (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:21:14)
+    at Object.module.exports [as load] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/load.js:11:18)
+    at Object.JSZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/index.js:39:14)
+    at openArrayBuffer (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/zipfile.js:8:19)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:636:18)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/nodeback.js:42:21
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at Object.openZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/unzip.js:14:39)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5131
+hostname: localhost
+
+2017-06-11 21:47:27,327 ERROR 5172 nodejs.Error: Can't remove headers after they are sent (uncaughtException throw 1 times on pid:5172)
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:390:11)
+    at Object.remove (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:478:14)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:176:10)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:63:20)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+pid: 5172
+hostname: localhost
+
+2017-06-11 21:54:42,895 ERROR 5213 nodejs.unhandledRejectionError: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at Object.set (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:436:16)
+    at Object.set length [as length] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg/app/extend/response.js:11:10)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:152:19)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at mammoth.convertToHtml.then.docx (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:63:22)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:56)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5213
+hostname: localhost
+
+2017-06-11 21:56:23,288 ERROR 5235 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:390:11)
+    at Object.remove (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:478:14)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:176:10)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at mammoth.convertToHtml.then.docx (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:64:22)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:56)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5235
+hostname: localhost
+
+2017-06-11 21:58:38,885 ERROR 5262 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:390:11)
+    at Object.remove (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:478:14)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:176:10)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at mammoth.convertToHtml.then.docx (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:64:22)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:56)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5262
+hostname: localhost
+
+2017-06-11 21:58:54,642 ERROR 5271 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:390:11)
+    at Object.remove (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:478:14)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:176:10)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at mammoth.convertToHtml.then.docx (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:64:22)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:56)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5271
+hostname: localhost
+
+2017-06-11 22:00:08,400 ERROR 5283 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:390:11)
+    at Object.remove (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:478:14)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:176:10)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at mammoth.convertToHtml.then.docx (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:64:22)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:63)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5283
+hostname: localhost
+
+2017-06-11 22:14:21,744 ERROR 5373 [-/127.0.0.1/-/74ms POST /api/upload] nodejs.Error: Can't find end of central directory : is this a zip file ? If it is, see http://stuk.github.io/jszip/documentation/howto/read_zip.html
+    at Object.readEndOfCentral (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:149:23)
+    at Object.load (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:215:14)
+    at Object.ZipEntries (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:21:14)
+    at Object.module.exports [as load] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/load.js:11:18)
+    at Object.JSZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/index.js:39:14)
+    at openArrayBuffer (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/zipfile.js:8:19)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:636:18)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/nodeback.js:42:21
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at Object.openZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/unzip.js:14:39)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:68:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5373
+hostname: localhost
+
+2017-06-11 22:14:40,967 ERROR 5378 [-/127.0.0.1/-/51ms POST /api/upload] nodejs.Error: Can't find end of central directory : is this a zip file ? If it is, see http://stuk.github.io/jszip/documentation/howto/read_zip.html
+    at Object.readEndOfCentral (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:149:23)
+    at Object.load (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:215:14)
+    at Object.ZipEntries (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/zipEntries.js:21:14)
+    at Object.module.exports [as load] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/load.js:11:18)
+    at Object.JSZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.2.5.0@jszip/lib/index.js:39:14)
+    at openArrayBuffer (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/zipfile.js:8:19)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:636:18)
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/nodeback.js:42:21
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:445:3)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at Object.openZip (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/unzip.js:14:39)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:68:36)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5378
+hostname: localhost
+
+2017-06-11 22:20:10,096 ERROR 5461 nodejs.ReferenceError: val is not defined (uncaughtException throw 1 times on pid:5461)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:72:21)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+pid: 5461
+hostname: localhost
+
+2017-06-11 22:20:10,175 ERROR 5461 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:67:17)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5461
+hostname: localhost
+
+2017-06-11 22:20:57,548 ERROR 5484 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:67:17)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5484
+hostname: localhost
+
+2017-06-11 22:21:44,358 ERROR 5494 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:60:19)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5494
+hostname: localhost
+
+2017-06-11 22:22:24,912 ERROR 5496 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:60:19)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5496
+hostname: localhost
+
+2017-06-11 22:31:54,912 ERROR 5607 nodejs.unhandledRejectionError: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at Object.set (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:436:16)
+    at Object.set length [as length] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.3.0@egg/app/extend/response.js:11:10)
+    at Object.set body [as body] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.0@koa/lib/response.js:152:19)
+    at Object.body (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.0.0@delegates/index.js:92:31)
+    at mammoth.convertToHtml.then.then.val (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:66:22)
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:64:14)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5607
+hostname: localhost
+
+2017-06-11 23:00:12,794 ERROR 5818 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:21)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5818
+hostname: localhost
+
+2017-06-11 23:03:23,582 ERROR 5845 [-/127.0.0.1/-/30ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:58:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5845
+hostname: localhost
+
+2017-06-11 23:06:46,825 ERROR 5880 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:21)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5880
+hostname: localhost
+
+2017-06-11 23:07:03,128 ERROR 5901 nodejs.unhandledRejectionError: Could not find word/document.xml in ZIP file. Are you sure this is a valid .docx file?
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:75:23
+    at /Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/docx/docx-reader.js:108:24
+    at tryCatcher (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromiseCtx (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:604:10)
+    at Async._drainQueue (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/async.js:138:12)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/debuggability.js:397:19)
+    at Promise._then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:231:17)
+    at Promise.then (/Users/wujunyi/Desktop/node/eggRest/node_modules/.3.4.7@bluebird/js/release/promise.js:124:17)
+    at convert (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:40:10)
+    at Object.convertToHtml (/Users/wujunyi/Desktop/node/eggRest/node_modules/.1.4.1@mammoth/lib/index.js:22:12)
+    at FileStream.<anonymous> (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:61:21)
+    at emitNone (events.js:91:20)
+    at FileStream.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'unhandledRejectionError'
+pid: 5901
+hostname: localhost
+
+2017-06-11 23:17:47,771 ERROR 5997 [-/127.0.0.1/-/35ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 5997
+hostname: localhost
+
+2017-06-11 23:20:44,615 ERROR 6016 [-/127.0.0.1/-/21ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:65:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6016
+hostname: localhost
+
+2017-06-11 23:21:11,964 ERROR 6016 [-/127.0.0.1/-/8ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:65:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6016
+hostname: localhost
+
+2017-06-11 23:21:42,363 ERROR 6043 [-/127.0.0.1/-/20ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:65:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6043
+hostname: localhost
+
+2017-06-11 23:21:48,479 ERROR 6043 [-/127.0.0.1/-/6ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:65:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6043
+hostname: localhost
+
+2017-06-11 23:22:25,386 ERROR 6048 [-/127.0.0.1/-/24ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6048
+hostname: localhost
+
+2017-06-11 23:23:06,814 ERROR 6053 [-/127.0.0.1/-/12ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6053
+hostname: localhost
+
+2017-06-11 23:23:56,500 ERROR 6065 [-/127.0.0.1/-/26ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:59:79)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6065
+hostname: localhost
+
+2017-06-11 23:28:11,026 ERROR 6104 [-/127.0.0.1/-/10ms POST /api/upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Users/wujunyi/Desktop/node/eggRest/app/controller/home.js:58:16)
+    at next (native)
+    at onFulfilled (/Users/wujunyi/Desktop/node/eggRest/node_modules/.4.6.0@co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+
+pid: 6104
+hostname: localhost
+
